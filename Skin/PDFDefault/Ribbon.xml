@@ -1,0 +1,4397 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RibbonFontComboxItem">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="540" Top="855" Width="22" Height="22">
+        <Margins Left="6" Top="5" Right="14" Bottom="6" />
+      </State>
+      <State Left="562" Top="855" Width="22" Height="22">
+        <Margins Left="6" Top="5" Right="14" Bottom="6" />
+      </State>
+      <State Left="584" Top="855" Width="22" Height="22">
+        <Margins Left="6" Top="5" Right="14" Bottom="6" />
+      </State>
+      <State Left="606" Top="855" Width="22" Height="22">
+        <Margins Left="6" Top="5" Right="14" Bottom="6" />
+      </State>
+    </Part>
+    <Part id="1" Name="Button" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="2" Name="ButtonGlyph" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="347" Top="864" Width="7" Height="5" />
+      <State Left="407" Top="864" Width="7" Height="5" />
+      <State Left="467" Top="864" Width="7" Height="5" />
+      <State Left="527" Top="864" Width="7" Height="5" />
+    </Part>
+    <Part id="3" Name="ItemGlyph" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="539" Top="844" Width="9" Height="7">
+        <Margins Left="5" Top="5" Right="6" Bottom="5" />
+      </State>
+      <State Left="562" Top="855" Width="22" Height="22">
+        <Margins Left="5" Top="5" Right="6" Bottom="5" />
+      </State>
+      <State Left="584" Top="855" Width="22" Height="22">
+        <Margins Left="5" Top="5" Right="6" Bottom="5" />
+      </State>
+      <State Left="606" Top="855" Width="22" Height="22">
+        <Margins Left="5" Top="5" Right="6" Bottom="5" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RibbonTabControl">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Ribbon_New.png" />
+      <State Left="339" Top="220" Width="53" Height="14" />
+    </Part>
+    <Part id="1" Name="TabButton" TransparentMode="Alpha">
+      <Graphic Name="Ribbon_New.png" />
+      <State Left="130" Top="213" Width="0" Height="0">
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="129" Top="216" Width="1" Height="1">
+        <Margins Top="1" Bottom="1" />
+        <Font Color="0xff8f382b" />
+      </State>
+      <State Left="77" Top="110" Width="0" Height="0">
+        <Font Color="0xff943629" />
+      </State>
+      <State Left="129" Top="213" Width="0" Height="1">
+        <Font Color="clLightGray" />
+      </State>
+    </Part>
+    <Part id="2" Name="Header" TransparentMode="Alpha">
+      <Graphic Name="PE7/BatchRightBg.png" />
+      <State Left="42" Top="42" Width="13" Height="12" />
+    </Part>
+    <Part id="3" Name="Gap" TransparentMode="Alpha">
+      <Graphic Name="MainForm.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="NextButton" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="480" Top="1120" Width="15" Height="29">
+        <Margins Left="2" Top="3" Right="11" Bottom="24" />
+      </State>
+      <State Left="496" Top="1120" Width="15" Height="29">
+        <Margins Left="2" Top="3" Right="11" Bottom="24" />
+      </State>
+      <State Left="512" Top="1120" Width="15" Height="29">
+        <Margins Left="2" Top="3" Right="11" Bottom="24" />
+      </State>
+      <State Left="480" Top="1120" Width="15" Height="29">
+        <Margins Left="2" Top="3" Right="11" Bottom="24" />
+      </State>
+    </Part>
+    <Part id="5" Name="NextButtonGlyph" TransparentMode="Alpha">
+      <Graphic Name="Controls.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="PreButton" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="416" Top="1120" Width="15" Height="29">
+        <Margins Right="12" Bottom="24" />
+      </State>
+      <State Left="432" Top="1120" Width="15" Height="29">
+        <Margins Right="12" Bottom="24" />
+      </State>
+      <State Left="448" Top="1120" Width="15" Height="29">
+        <Margins Right="12" Bottom="24" />
+      </State>
+      <State Left="464" Top="1120" Width="15" Height="29">
+        <Margins Right="12" Bottom="24" />
+      </State>
+    </Part>
+    <Part id="7" Name="PreButtonGlyph" TransparentMode="Alpha">
+      <Graphic Name="Controls.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="HomeHandGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_HandMode.png" />
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="3" Top="1" Right="3" Bottom="2" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="3" Top="1" Right="3" Bottom="2" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="3" Top="1" Right="3" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="3" Top="1" Right="3" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="1" Name="MiddleSmall" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_HandMode.png" />
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="3" Top="1" Right="3" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="3" Top="1" Right="3" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="3" Top="1" Right="3" Bottom="2" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="3" Top="1" Right="3" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="HomeTxtEditorGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_EditMode.png" />
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="2" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="2" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_EditMode.png" />
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="2" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="2" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="HomeObjectEditorGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Ribbon_New.png" />
+      <State Left="580" Top="263" Width="32" Height="32" />
+      <State Left="612" Top="263" Width="32" Height="32" />
+      <State Left="644" Top="263" Width="32" Height="32">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="676" Top="263" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="HomeSelectGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SelectMode.png" />
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="MiddleSmall" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SelectMode.png" />
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="HomeFindGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Find.png" />
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Top="1" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Top="1" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Top="1" Right="2" Bottom="2" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Top="1" Right="2" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Find.png" />
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Top="1" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Top="1" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Top="1" Right="2" Bottom="2" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Top="1" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="HomeFitWidthContinuours">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_fitWith.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HomeFitPageSingle">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_fitWindows.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HomeScaner">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Scaner.png" />
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="3" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="3" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="3" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="3" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Scaner.png" />
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="3" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="3" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="3" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Top="3" Right="1" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ViewPrevPageGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PrevPage.png" />
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="8" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PrevPage.png" />
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="8" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ViewNextPageGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_NextPage.png" />
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="8" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_NextPage.png" />
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="8" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ViewZoomINGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ZoomIn.png" />
+      <State Left="9" Top="0" Width="9" Height="9" />
+      <State Left="9" Top="0" Width="9" Height="9" />
+      <State Left="9" Top="0" Width="9" Height="9" />
+      <State Left="0" Top="0" Width="9" Height="9" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ZoomIn.png" />
+      <State Left="9" Top="0" Width="9" Height="9" />
+      <State Left="9" Top="0" Width="9" Height="9" />
+      <State Left="9" Top="0" Width="9" Height="9" />
+      <State Left="0" Top="0" Width="9" Height="9" />
+    </Part>
+  </Item>
+  <Item Name="ViewZoomOutGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ZoomOut.png" />
+      <State Left="9" Top="0" Width="9" Height="9">
+        <Margins Top="4" Bottom="4" />
+      </State>
+      <State Left="9" Top="0" Width="9" Height="9">
+        <Margins Top="4" Bottom="4" />
+      </State>
+      <State Left="9" Top="0" Width="9" Height="9">
+        <Margins Top="4" Bottom="4" />
+      </State>
+      <State Left="0" Top="0" Width="9" Height="9">
+        <Margins Top="4" Bottom="4" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ZoomOut.png" />
+      <State Left="9" Top="0" Width="9" Height="9">
+        <Margins Top="4" Bottom="4" />
+      </State>
+      <State Left="9" Top="0" Width="9" Height="9">
+        <Margins Top="4" Bottom="4" />
+      </State>
+      <State Left="9" Top="0" Width="9" Height="9">
+        <Margins Top="4" Bottom="4" />
+      </State>
+      <State Left="0" Top="0" Width="9" Height="9">
+        <Margins Top="4" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ViewLeftGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_RotateLeft.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_RotateLeft.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewRightGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_RotaRight.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_RotaRight.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewSingleGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_viewOnePage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewContinueGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_scrollingView.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewFacingGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_viewTwoPage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewFacingContinueGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_viewPages.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewFullScreenGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_fullScreen.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewSnapshotGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Snapshot.png" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Snapshot.png" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewTileGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_Tile.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewBookmarkGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Bookmark.png" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Bookmark.png" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewFiteWidth">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_fitWith.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewFitePage">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_fitWindows.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewActualSize">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_actualSeize.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ViewFiteHeight">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_View_fitHeight.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentNoteGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_note.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_note.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentAttachmentGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_attachment.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentTextBoxGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_textbox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_textbox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentTypewriterGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_typewriter.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_typewriter.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentCalloutGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="288" Top="368" Width="32" Height="32" />
+      <State Left="288" Top="368" Width="32" Height="32" />
+      <State Left="288" Top="368" Width="32" Height="32">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="320" Top="368" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="CommentAreaHighlightGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_areahightlight.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_areahightlight.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentHighlightGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_hightlight.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentUnderlineGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_underline.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentSquigglyUnderlineGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_squiglyLine.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentStrikeoutGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_strikethrough.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentReplaceTextGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="548" Top="581" Width="38" Height="30" />
+      <State Left="586" Top="581" Width="38" Height="30" />
+      <State Left="624" Top="581" Width="38" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="662" Top="581" Width="38" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="CommentInsertTextGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_caret.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentHighlightMidGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="760" Top="965" Width="22" Height="22" />
+      <State Left="782" Top="965" Width="22" Height="22" />
+      <State Left="804" Top="965" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="826" Top="965" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="CommentUnderlineMidGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="760" Top="990" Width="22" Height="22" />
+      <State Left="782" Top="990" Width="22" Height="22" />
+      <State Left="804" Top="990" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="826" Top="990" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="CommentSquigglyUnderlineMidGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="760" Top="1041" Width="22" Height="22" />
+      <State Left="782" Top="1041" Width="22" Height="22" />
+      <State Left="804" Top="1041" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="826" Top="1041" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="CommentStrikeoutMidGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="760" Top="1015" Width="22" Height="22" />
+      <State Left="782" Top="1015" Width="22" Height="22" />
+      <State Left="804" Top="1015" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="826" Top="1015" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="CommentInsertTextMidGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="760" Top="1067" Width="22" Height="22" />
+      <State Left="782" Top="1067" Width="22" Height="22" />
+      <State Left="804" Top="1067" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="826" Top="1067" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="CommentStampGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_stamp.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentCreateStampGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_customStamp.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentRectangleGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_rectangle.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentOvalGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_Oval.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentCloudGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_could.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentPolygonGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_polygon.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentPolygonlineGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_connectedLine.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentLineGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_line.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentArrowGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_arror.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentPencilGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_pen.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentEraserGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_eraser.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentHideAnnotsGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Comment_hideAnnotation.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CommentShowAnnotsGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Ribbon_Comment_showAnnotation.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="EditAddTextGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_Text.png" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="EditAddImageGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_image.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="EditLinkGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_link.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="EditOCRGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_OCR.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_OCR.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="RibbonOptimzidePDF">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_OptimiziedPDF.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_OptimiziedPDF.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="EditBatchOCRGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="516" Top="394" Width="30" Height="30" />
+      <State Left="546" Top="394" Width="30" Height="30" />
+      <State Left="576" Top="394" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="606" Top="394" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="EditBoldGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Ribbon_FontBlod.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Ribbon_FontBlod.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="EditItalicGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Ribbon_fontItalic.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Ribbon_fontItalic.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="EditUnderlineGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Ribbon_fontUnderline.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Ribbon_fontUnderline.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="EditStrikeoutGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="371" Top="640" Width="36" Height="22" />
+      <State Left="408" Top="640" Width="36" Height="22" />
+      <State Left="444" Top="640" Width="36" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="480" Top="640" Width="36" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditSuperscriptGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="518" Top="640" Width="22" Height="22" />
+      <State Left="540" Top="640" Width="22" Height="22" />
+      <State Left="562" Top="640" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="584" Top="640" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditSubscriptGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="610" Top="640" Width="22" Height="22" />
+      <State Left="632" Top="640" Width="22" Height="22" />
+      <State Left="654" Top="640" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="676" Top="640" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditWordSpacingGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="304" Top="669" Width="30" Height="22" />
+      <State Left="334" Top="669" Width="30" Height="22" />
+      <State Left="364" Top="669" Width="30" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="394" Top="669" Width="30" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditFontZoomInGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="102" Top="669" Width="26" Height="22" />
+      <State Left="128" Top="669" Width="26" Height="22" />
+      <State Left="154" Top="669" Width="26" Height="22" />
+      <State Left="180" Top="669" Width="26" Height="22" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="102" Top="669" Width="26" Height="22" />
+      <State Left="128" Top="669" Width="26" Height="22" />
+      <State Left="154" Top="669" Width="26" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="180" Top="669" Width="26" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditFontZoomOutGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="214" Top="669" Width="22" Height="22" />
+      <State Left="236" Top="669" Width="22" Height="22" />
+      <State Left="258" Top="669" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="280" Top="669" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditFontColorGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Ribbon_New.png" />
+      <State Left="718" Top="491" Width="16" Height="18" />
+      <State Left="734" Top="491" Width="16" Height="18" />
+      <State Left="750" Top="491" Width="16" Height="18">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="766" Top="491" Width="16" Height="18" />
+    </Part>
+  </Item>
+  <Item Name="EditAlignLeftGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="102" Top="698" Width="18" Height="12" />
+      <State Left="120" Top="698" Width="18" Height="12" />
+      <State Left="138" Top="698" Width="18" Height="12">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="156" Top="698" Width="18" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="EditAlignRightGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="255" Top="698" Width="18" Height="12" />
+      <State Left="273" Top="698" Width="18" Height="12" />
+      <State Left="291" Top="698" Width="18" Height="12">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="309" Top="698" Width="18" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="EditAlignMiddleGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="180" Top="698" Width="18" Height="12" />
+      <State Left="198" Top="698" Width="18" Height="12" />
+      <State Left="216" Top="698" Width="18" Height="12">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="234" Top="698" Width="18" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="EditAlignJustifyGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="331" Top="698" Width="18" Height="12" />
+      <State Left="349" Top="698" Width="18" Height="12" />
+      <State Left="367" Top="698" Width="18" Height="12">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="385" Top="698" Width="18" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="EditLineSpacingGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="404" Top="698" Width="30" Height="14" />
+      <State Left="434" Top="698" Width="30" Height="14" />
+      <State Left="464" Top="698" Width="30" Height="14">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="494" Top="698" Width="30" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="ConvetFromFileGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ConvetFromFile.png" />
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="1" Top="2" Right="2" Bottom="3" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="1" Top="2" Right="2" Bottom="3" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="1" Top="2" Right="2" Bottom="3" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="1" Top="2" Right="2" Bottom="3" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ConvetFromFile.png" />
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="1" Top="2" Right="2" Bottom="3" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="1" Top="2" Right="2" Bottom="3" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="1" Top="2" Right="2" Bottom="3" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="1" Top="2" Right="2" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ConvetFromClipboardGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="150" Top="205" Width="30" Height="30" />
+      <State Left="180" Top="205" Width="30" Height="30" />
+      <State Left="210" Top="205" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="240" Top="205" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="ConvetCombineFilesGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ConvetCombineFiles.png" />
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Right="3" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Right="3" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Right="3" Bottom="1" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Right="3" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ConvetCombineFiles.png" />
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Right="3" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Right="3" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="24" Height="24">
+        <Margins Left="2" Right="3" Bottom="1" />
+      </State>
+      <State Left="24" Top="0" Width="24" Height="24">
+        <Margins Left="2" Right="3" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ConvetBatchImportGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="272" Top="205" Width="30" Height="30" />
+      <State Left="302" Top="205" Width="30" Height="30" />
+      <State Left="332" Top="205" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="362" Top="205" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToWordGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToWord.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToWord.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToExcelGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToExcel.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToExcel.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToPPTGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToPPT.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToPPT.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToImgBigGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToImage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToImage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToTextBigGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToText.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToText.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToEPUBBigGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToEpub.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToEpub.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToHTMLBigGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToHtml.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToHtml.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToRTFBigGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToRTF.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToRTF.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToPDFABigGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToPDFA.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ToPDFA.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToImageGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_RibbonMenu.png" />
+      <State Left="63" Top="7" Width="15" Height="19" />
+      <State Left="63" Top="7" Width="15" Height="19" />
+      <State Left="63" Top="7" Width="15" Height="19">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="63" Top="7" Width="15" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToTextGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_RibbonMenu.png" />
+      <State Left="82" Top="7" Width="15" Height="19" />
+      <State Left="82" Top="7" Width="15" Height="19" />
+      <State Left="82" Top="7" Width="15" Height="19">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="82" Top="7" Width="15" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="ConvToOtherGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="272" Top="269" Width="42" Height="30" />
+      <State Left="314" Top="269" Width="42" Height="30" />
+      <State Left="356" Top="269" Width="42" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="398" Top="269" Width="42" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToEpubGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_RibbonMenu.png" />
+      <State Left="101" Top="7" Width="15" Height="19" />
+      <State Left="101" Top="7" Width="15" Height="19" />
+      <State Left="101" Top="7" Width="15" Height="19">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="101" Top="7" Width="15" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToHtmlGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_RibbonMenu.png" />
+      <State Left="119" Top="7" Width="15" Height="19" />
+      <State Left="119" Top="7" Width="15" Height="19" />
+      <State Left="119" Top="7" Width="15" Height="19">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="119" Top="7" Width="15" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="ConvetToRtfGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_RibbonMenu.png" />
+      <State Left="138" Top="7" Width="15" Height="19" />
+      <State Left="138" Top="7" Width="15" Height="19" />
+      <State Left="138" Top="7" Width="15" Height="19">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="138" Top="7" Width="15" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="PageInsertGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_InsertPage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_InsertPage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageDeleteGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_DeletePage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_DeletePage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageCropGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_crop.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_crop.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageRotateGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="272" Top="502" Width="30" Height="30" />
+      <State Left="302" Top="502" Width="30" Height="30" />
+      <State Left="332" Top="502" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="362" Top="502" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="PageSplitGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SplitPage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SplitPage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageExtractGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ExtractPage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ExtractPage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageReplaceGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ReplacePage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ReplacePage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageWatermarkGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_watermark.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_watermark.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageBackgroundGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_background.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_background.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageBatesNumberGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_basesNumbers.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_basesNumbers.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageHeaderFooterGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_headerFooter.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Edit_headerFooter.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PagePageNumberGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="660" Top="426" Width="42" Height="30" />
+      <State Left="702" Top="426" Width="42" Height="30" />
+      <State Left="744" Top="426" Width="42" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="786" Top="426" Width="42" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="FormsEditFieldGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormEdit.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormEdit.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsCloseEditGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="272" Top="659" Width="30" Height="30" />
+      <State Left="302" Top="659" Width="30" Height="30" />
+      <State Left="332" Top="659" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="362" Top="659" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="FormsFieldRecognitionGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FileRecognition.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FileRecognition.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsDataExtractionGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_DataExtraction.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_DataExtraction.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsTextFieldGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormTextBox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormTextBox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsCheckBoxGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormCheckBox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormCheckBox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsRadioButtonGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormRadio.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormRadio.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsComboBoxGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormComboBox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormComboBox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsListBoxGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormListBox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormListBox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsPushButtonGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormButton.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormButton.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsDigitalSignatureGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormSignature.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormSignature.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsCalculationOrderGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormCalculation.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormCalculation.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsClearFormGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormClear.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormClear.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsImportGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormDataImport.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormDataImport.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FormsExportGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormDataExport.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormDataExport.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ProtectPasswordGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Password.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Password.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ProtectBatchPasswordGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="638" Top="790" Width="30" Height="30" />
+      <State Left="668" Top="790" Width="30" Height="30" />
+      <State Left="698" Top="790" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="728" Top="790" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="ProtectSignDocumentGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SignDocument.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SignDocument.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ProtectPlaceSignatureGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PlaceSignature.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PlaceSignature.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ProtectValidateAllSignatureGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ValdateAllSignature.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ValdateAllSignature.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ProtectClearAllSignatureGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ClearAllSignatures.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ClearAllSignatures.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ForBoldGlyph">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="102" Top="640" Width="22" Height="22" />
+      <State Left="124" Top="640" Width="22" Height="22" />
+      <State Left="146" Top="640" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="168" Top="640" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="ForItalicGlyph">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="192" Top="640" Width="22" Height="22" />
+      <State Left="214" Top="640" Width="22" Height="22" />
+      <State Left="236" Top="640" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="258" Top="640" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="ForColorGlyph">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="Ribbon_New.png" />
+      <State Left="718" Top="491" Width="16" Height="14" />
+      <State Left="734" Top="491" Width="16" Height="14" />
+      <State Left="750" Top="491" Width="16" Height="14">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="766" Top="491" Width="16" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="ForZoomOutFontGlyph">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="214" Top="669" Width="22" Height="22" />
+      <State Left="236" Top="669" Width="22" Height="22" />
+      <State Left="258" Top="669" Width="22" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="280" Top="669" Width="22" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="ForZoomInFontGlyph">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="102" Top="669" Width="26" Height="22" />
+      <State Left="128" Top="669" Width="26" Height="22" />
+      <State Left="154" Top="669" Width="26" Height="22">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="180" Top="669" Width="26" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="PurchaseForBusinessGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Ribbon_New.png" />
+      <State Left="580" Top="719" Width="32" Height="32" />
+      <State Left="612" Top="719" Width="32" Height="32" />
+      <State Left="644" Top="719" Width="32" Height="32">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="676" Top="719" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="PurchaseGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_BuyNow_Glyph.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_BuyNow_Glyph.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="PurForBusinessGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="881" Top="465" Width="32" Height="32" />
+      <State Left="881" Top="465" Width="32" Height="32" />
+      <State Left="881" Top="465" Width="32" Height="32">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="913" Top="465" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="RegisterGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Register_Glyph.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Register_Glyph.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="RibbonWSIDUserCenterGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_UserCenter.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_UserCenter.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="RibbonUpgradeGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Upgrade_Glyph.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Upgrade_Glyph.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="RegisteredGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Ribbon_New.png" />
+      <State Left="446" Top="759" Width="32" Height="32" />
+      <State Left="478" Top="759" Width="32" Height="32" />
+      <State Left="510" Top="759" Width="32" Height="32">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="542" Top="759" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="ForRightGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="128" Top="165" Width="32" Height="32" />
+      <State Left="128" Top="165" Width="32" Height="32" />
+      <State Left="128" Top="165" Width="32" Height="32">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="160" Top="165" Width="32" Height="32" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="608" Top="216" Width="16" Height="16" />
+      <State Left="608" Top="216" Width="16" Height="16" />
+      <State Left="608" Top="216" Width="16" Height="16">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="624" Top="216" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ForLeftGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="64" Top="165" Width="32" Height="32" />
+      <State Left="64" Top="165" Width="32" Height="32" />
+      <State Left="64" Top="165" Width="32" Height="32">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="96" Top="165" Width="32" Height="32" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="512" Top="216" Width="16" Height="16" />
+      <State Left="512" Top="216" Width="16" Height="16" />
+      <State Left="512" Top="216" Width="16" Height="16">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="528" Top="216" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="RpBkgRight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RBPanel.png" />
+      <State Left="11" Top="0" Width="10" Height="92">
+        <Margins Left="2" Right="7" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RpBkgLeft">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RBPanel.png" />
+      <State Left="36" Top="0" Width="7" Height="92">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RpTopBkg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <State Left="92" Top="376" Width="10" Height="10">
+        <Margins Top="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="IconBtnPrev">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="custom.png" />
+      <State Left="32" Top="9" Width="16" Height="16" />
+      <State Left="32" Top="9" Width="16" Height="16" />
+      <State Left="32" Top="9" Width="16" Height="16" />
+      <State Left="48" Top="9" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="IconBtnNext">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="custom.png" />
+      <State Left="0" Top="9" Width="16" Height="16" />
+      <State Left="0" Top="9" Width="16" Height="16" />
+      <State Left="0" Top="9" Width="16" Height="16" />
+      <State Left="16" Top="9" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="RbFile">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="231" Top="213" Width="18" Height="22">
+        <Margins Left="6" Top="6" Right="6" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="251" Top="213" Width="18" Height="22">
+        <Margins Left="5" Top="6" Right="5" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="251" Top="213" Width="18" Height="22">
+        <Margins Left="5" Top="5" Right="5" />
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="130" Top="212" Width="1" Height="1">
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="IconBtnClearSearch">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="835" Top="958" Width="16" Height="16" />
+      <State Left="819" Top="958" Width="16" Height="16" />
+      <State Left="819" Top="958" Width="16" Height="16" />
+      <State Left="819" Top="958" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="IconBtnClear">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="785" Top="964" Width="8" Height="8" />
+      <State Left="776" Top="964" Width="8" Height="8" />
+      <State Left="776" Top="964" Width="8" Height="8" />
+      <State Left="776" Top="964" Width="8" Height="8" />
+    </Part>
+  </Item>
+  <Item Name="btnShowRibbonBKG">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="124" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="6" Right="8" Bottom="9" />
+      </State>
+      <State Left="88" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="6" Right="8" Bottom="9" />
+      </State>
+      <State Left="71" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="6" Right="8" Bottom="9" />
+      </State>
+      <State Left="125" Top="1" Width="17" Height="16">
+        <Margins Left="8" Top="6" Right="8" Bottom="9" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="124" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+      <State Left="88" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+      <State Left="71" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+      <State Left="125" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="txtFlashSearchBKG">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Controls.png" />
+      <State Left="99" Top="177" Width="14" Height="22">
+        <Margins Left="7" Top="11" Right="6" Bottom="10" />
+      </State>
+      <State Left="14" Top="153" Width="14" Height="22">
+        <Margins Left="7" Top="11" Right="6" Bottom="10" />
+      </State>
+      <State Left="113" Top="153" Width="14" Height="22">
+        <Margins Left="7" Top="11" Right="6" Bottom="10" />
+      </State>
+      <State Left="42" Top="153" Width="14" Height="22">
+        <Margins Left="7" Top="11" Right="6" Bottom="10" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ArrowGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="450" Top="1301" Width="7" Height="4" />
+      <State Left="457" Top="1301" Width="7" Height="4" />
+      <State Left="464" Top="1301" Width="7" Height="4" />
+      <State Left="471" Top="1301" Width="7" Height="4" />
+    </Part>
+  </Item>
+  <Item Name="RibbonArrowGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="450" Top="1276" Width="7" Height="3" />
+      <State Left="457" Top="1276" Width="7" Height="3" />
+      <State Left="464" Top="1276" Width="7" Height="3" />
+      <State Left="471" Top="1276" Width="7" Height="3" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="450" Top="1276" Width="7" Height="3" />
+      <State Left="457" Top="1276" Width="7" Height="3" />
+      <State Left="464" Top="1276" Width="7" Height="3" />
+      <State Left="471" Top="1276" Width="7" Height="3" />
+    </Part>
+  </Item>
+  <Item Name="SplitBtnBKG">
+    <Part id="0" Name="LargeUpUnChecked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="100" Top="90" Width="16" Height="37">
+        <Margins Left="8" Top="18" Right="6" Bottom="17" />
+      </State>
+      <State Left="116" Top="90" Width="16" Height="37">
+        <Margins Left="8" Top="18" Right="6" Bottom="17" />
+      </State>
+      <State Left="132" Top="90" Width="16" Height="37">
+        <Margins Left="8" Top="18" Right="6" Bottom="17" />
+      </State>
+      <State Left="148" Top="90" Width="16" Height="37">
+        <Margins Left="8" Top="18" Right="6" Bottom="17" />
+        <Font Color="clGray" />
+      </State>
+      <State Left="164" Top="90" Width="12" Height="37">
+        <Margins Left="8" Top="18" Right="6" Bottom="17" />
+      </State>
+      <State Left="176" Top="90" Width="0" Height="37">
+        <Margins Left="1" Top="18" Right="1" Bottom="17" />
+      </State>
+    </Part>
+    <Part id="1" Name="LargeUpChecked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="99" Top="89" Width="16" Height="37">
+        <Margins Left="8" Top="15" Right="7" Bottom="21" />
+      </State>
+      <State Left="115" Top="89" Width="16" Height="37">
+        <Margins Left="8" Top="15" Right="7" Bottom="21" />
+      </State>
+      <State Left="131" Top="89" Width="16" Height="37">
+        <Margins Left="8" Top="15" Right="7" Bottom="21" />
+      </State>
+      <State Left="147" Top="89" Width="16" Height="37">
+        <Margins Left="8" Top="15" Right="7" Bottom="21" />
+        <Font Color="clGray" />
+      </State>
+      <State Left="163" Top="89" Width="13" Height="37">
+        <Margins Left="8" Top="15" Right="7" Bottom="21" />
+      </State>
+      <State Left="176" Top="89" Width="0" Height="37">
+        <Margins Left="1" Top="15" Right="1" Bottom="21" />
+      </State>
+    </Part>
+    <Part id="2" Name="LargeDownUnChecked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="98" Top="127" Width="16" Height="27" />
+      <State Left="114" Top="127" Width="16" Height="27" />
+      <State Left="130" Top="127" Width="16" Height="27" />
+      <State Left="146" Top="127" Width="16" Height="27">
+        <Font Color="clGray" />
+      </State>
+      <State Left="162" Top="127" Width="14" Height="27" />
+      <State Left="176" Top="127" Width="0" Height="27" />
+    </Part>
+    <Part id="3" Name="LargeDownChecked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clGray" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="MiddleUpUnChecked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="106" Top="129" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+      </State>
+      <State Left="0" Top="155" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+      </State>
+      <State Left="28" Top="155" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+      </State>
+      <State Left="140" Top="155" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+        <Font Color="clGray" />
+      </State>
+      <State Left="101" Top="131" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+      </State>
+      <State Left="56" Top="155" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="6" Bottom="12" />
+      </State>
+    </Part>
+    <Part id="5" Name="MiddleUpChecked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clGray" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="MiddleDownUnChecked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="102" Top="130" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+      <State Left="71" Top="155" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+      <State Left="127" Top="155" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+      <State Left="155" Top="155" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+        <Font Color="clGray" />
+      </State>
+      <State Left="106" Top="131" Width="11" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+      <State Left="43" Top="155" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+    </Part>
+    <Part id="7" Name="MiddleDownChecked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clGray" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="8" Name="SmallUpUnChecked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="106" Top="129" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+      </State>
+      <State Left="0" Top="155" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+      </State>
+      <State Left="28" Top="155" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+      </State>
+      <State Left="140" Top="155" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+        <Font Color="clGray" />
+      </State>
+      <State Left="101" Top="131" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="7" Bottom="12" />
+      </State>
+      <State Left="56" Top="155" Width="15" Height="22">
+        <Margins Left="6" Top="9" Right="6" Bottom="12" />
+      </State>
+    </Part>
+    <Part id="9" Name="SmallUpChecked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clGray" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="10" Name="SmallDownUnChecked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="102" Top="130" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+      <State Left="71" Top="155" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+      <State Left="127" Top="155" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+      <State Left="155" Top="155" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+        <Font Color="clGray" />
+      </State>
+      <State Left="106" Top="131" Width="11" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+      <State Left="43" Top="155" Width="13" Height="22">
+        <Margins Left="7" Top="10" Right="5" Bottom="11" />
+      </State>
+    </Part>
+    <Part id="11" Name="SmallDownChecked" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Color="clGray" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="DropDownBtnBKG">
+    <Part id="0" Name="LargeUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="130" Top="375" Width="1" Height="1" />
+      <State Left="131" Top="376" Width="10" Height="10" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="LargeChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="155" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="167" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="2" Name="MiddleUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="130" Top="375" Width="1" Height="1" />
+      <State Left="131" Top="376" Width="10" Height="10" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="3" Name="MiddleChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="155" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="167" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="4" Name="SmallUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="79" Top="181" Width="3" Height="4" />
+      <State Left="77" Top="164" Width="3" Height="4" />
+      <State Left="102" Top="163" Width="3" Height="4" />
+      <State Left="140" Top="155" Width="16" Height="22">
+        <Margins Left="7" Top="10" Right="7" Bottom="10" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="5" Name="SmallChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="79" Top="181" Width="3" Height="4" />
+      <State Left="77" Top="164" Width="3" Height="4" />
+      <State Left="102" Top="163" Width="3" Height="4" />
+      <State Left="140" Top="155" Width="16" Height="22">
+        <Margins Left="7" Top="10" Right="7" Bottom="10" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CheckAsPressBtnBKG">
+    <Part id="0" Name="LargeUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="130" Top="375" Width="1" Height="1" />
+      <State Left="131" Top="376" Width="10" Height="10" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="LargeChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="155" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="167" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="2" Name="MiddleUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="130" Top="375" Width="1" Height="1" />
+      <State Left="131" Top="376" Width="10" Height="10" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="3" Name="MiddleChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="155" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="167" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="4" Name="SmallUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="130" Top="375" Width="1" Height="1" />
+      <State Left="131" Top="376" Width="10" Height="10" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="5" Name="SmallChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="143" Top="376" Width="10" Height="10" />
+      <State Left="155" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="167" Top="376" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="130" Top="375" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RibbonTransparentBKG">
+    <Part id="0" Name="LargeUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="129" Top="373" Width="1" Height="1" />
+      <State Left="130" Top="373" Width="1" Height="1" />
+      <State Left="131" Top="373" Width="1" Height="1" />
+      <State Left="132" Top="373" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="LargeChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="126" Top="374" Width="1" Height="1" />
+      <State Left="127" Top="374" Width="1" Height="1" />
+      <State Left="128" Top="374" Width="1" Height="1" />
+      <State Left="129" Top="374" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="2" Name="MiddleUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="129" Top="373" Width="1" Height="1" />
+      <State Left="130" Top="373" Width="1" Height="1" />
+      <State Left="131" Top="373" Width="1" Height="1" />
+      <State Left="132" Top="373" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="3" Name="MiddleChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="125" Top="372" Width="1" Height="1" />
+      <State Left="126" Top="372" Width="1" Height="1" />
+      <State Left="127" Top="372" Width="1" Height="1" />
+      <State Left="128" Top="372" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="4" Name="SmallUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="128" Top="373" Width="1" Height="1" />
+      <State Left="129" Top="373" Width="1" Height="1" />
+      <State Left="130" Top="373" Width="1" Height="1" />
+      <State Left="131" Top="373" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="5" Name="SmallChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="126" Top="373" Width="1" Height="1" />
+      <State Left="127" Top="373" Width="1" Height="1" />
+      <State Left="128" Top="373" Width="1" Height="1" />
+      <State Left="129" Top="373" Width="1" Height="1">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RibbonButtonBKG">
+    <Part id="0" Name="LargeUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ButtonBkg.png" />
+      <State Left="0" Top="0" Width="16" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="92" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="14" Height="12">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="1" Name="LargeChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ButtonBkg.png" />
+      <State Left="0" Top="0" Width="16" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="92" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="15" Height="11">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="2" Name="MiddleUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ButtonBkg.png" />
+      <State Left="0" Top="0" Width="16" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="92" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="20" Height="12">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="3" Name="MiddleChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ButtonBkg.png" />
+      <State Left="0" Top="0" Width="16" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="92" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="17" Height="12">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="4" Name="SmallUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ButtonBkg.png" />
+      <State Left="0" Top="0" Width="16" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="92" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="14" Height="11">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="5" Name="SmallChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ButtonBkg.png" />
+      <State Left="0" Top="0" Width="16" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="92" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="14" Width="92" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="16" Height="13">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RibbonDropDownButtonBKG">
+    <Part id="0" Name="LargeUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonBgk.png" />
+      <State Left="0" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="1" Name="LargeChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonBgk.png" />
+      <State Left="0" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="2" Name="MiddleUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonBgk.png" />
+      <State Left="0" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="3" Name="MiddleChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonBgk.png" />
+      <State Left="0" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="4" Name="SmallUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonBgk.png" />
+      <State Left="0" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+    <Part id="5" Name="SmallChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonBgk.png" />
+      <State Left="0" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xffa5a5a5" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="GBBKG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_GroupBoxSplit.png" />
+      <State Left="0" Top="0" Width="2" Height="52">
+        <Margins Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="52">
+        <Margins Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="52">
+        <Margins Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="2" Height="52">
+        <Margins Right="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="Collapse" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="170" Top="401" Width="2" Height="10">
+        <Margins Right="1" />
+      </State>
+      <State Left="170" Top="401" Width="2" Height="10">
+        <Margins Right="1" />
+      </State>
+      <State Left="170" Top="401" Width="2" Height="10">
+        <Margins Right="1" />
+      </State>
+      <State Left="170" Top="401" Width="2" Height="10">
+        <Margins Right="1" />
+      </State>
+    </Part>
+    <Part id="2" Name="Glyph" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="3" Name="Arrow" TransparentMode="Alpha">
+      <Graphic Name="Controls.png" />
+      <State Left="41" Top="139" Width="5" Height="3" />
+      <State Left="41" Top="139" Width="5" Height="3" />
+      <State Left="41" Top="139" Width="5" Height="3" />
+      <State Left="47" Top="139" Width="5" Height="3" />
+    </Part>
+    <Part id="4" Name="PopUPBKG" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="2" Top="26" Width="17" Height="20" />
+      <State Left="24" Top="26" Width="17" Height="20" />
+      <State Left="46" Top="26" Width="17" Height="20" />
+      <State Left="63" Top="26" Width="17" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="GBBKGL">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_GroupBoxSplit.png" />
+      <State Left="2" Top="0" Width="1" Height="52" />
+      <State Left="2" Top="0" Width="1" Height="52" />
+      <State Left="2" Top="0" Width="1" Height="52" />
+      <State Left="2" Top="0" Width="1" Height="52" />
+    </Part>
+    <Part id="1" Name="Collapse" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="174" Top="400" Width="2" Height="12">
+        <Margins Left="1" Top="1" Bottom="1" />
+      </State>
+      <State Left="174" Top="400" Width="2" Height="12">
+        <Margins Left="1" Top="1" Bottom="1" />
+      </State>
+      <State Left="174" Top="400" Width="2" Height="12">
+        <Margins Left="1" Top="1" Bottom="1" />
+      </State>
+      <State Left="174" Top="400" Width="2" Height="12">
+        <Margins Left="1" Top="1" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="2" Name="Glyph" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="3" Name="Arrow" TransparentMode="Alpha">
+      <Graphic Name="Controls.png" />
+      <State Left="41" Top="139" Width="5" Height="3" />
+      <State Left="41" Top="139" Width="5" Height="3" />
+      <State Left="41" Top="139" Width="5" Height="3" />
+      <State Left="47" Top="139" Width="5" Height="3" />
+    </Part>
+    <Part id="4" Name="PopUPBKG" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="2" Top="26" Width="17" Height="20" />
+      <State Left="24" Top="26" Width="17" Height="20" />
+      <State Left="46" Top="26" Width="17" Height="20" />
+      <State Left="63" Top="26" Width="17" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="GBBKGLR">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="178" Top="401" Width="3" Height="10">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="178" Top="401" Width="3" Height="10">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="178" Top="401" Width="3" Height="10">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="178" Top="401" Width="3" Height="10">
+        <Margins Left="1" Right="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="Collapse" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="178" Top="401" Width="3" Height="10">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="178" Top="401" Width="3" Height="10">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="178" Top="401" Width="3" Height="10">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="178" Top="401" Width="3" Height="10">
+        <Margins Left="1" Right="1" />
+      </State>
+    </Part>
+    <Part id="2" Name="Glyph" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="3" Name="Arrow" TransparentMode="Alpha">
+      <Graphic Name="Controls.png" />
+      <State Left="41" Top="139" Width="5" Height="3" />
+      <State Left="41" Top="139" Width="5" Height="3" />
+      <State Left="41" Top="139" Width="5" Height="3" />
+      <State Left="47" Top="139" Width="5" Height="3" />
+    </Part>
+    <Part id="4" Name="PopUPBKG" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="2" Top="26" Width="17" Height="20" />
+      <State Left="24" Top="26" Width="17" Height="20" />
+      <State Left="46" Top="26" Width="17" Height="20" />
+      <State Left="63" Top="26" Width="17" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="BtnHideRibbonBKG">
+    <Part id="0" Name="Normal" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="128" Top="3" Width="14" Height="15" />
+      <State Left="54" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+      <State Left="71" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+      <State Left="124" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+    </Part>
+    <Part id="1" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="124" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+      <State Left="54" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+      <State Left="71" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+      <State Left="124" Top="0" Width="17" Height="16">
+        <Margins Left="8" Top="8" Right="8" Bottom="7" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PopUpSkin">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="CommonForm.png" />
+      <State Left="108" Top="167" Width="14" Height="42">
+        <Margins Left="7" Top="22" Right="6" Bottom="19" />
+      </State>
+      <State Left="137" Top="167" Width="-1" Height="42" />
+      <State Left="136" Top="167" Width="0" Height="42">
+        <Margins Top="22" Bottom="19" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="FacebookGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="150" Top="899" Width="30" Height="30" />
+      <State Left="180" Top="899" Width="30" Height="30" />
+      <State Left="210" Top="899" Width="30" Height="30" />
+      <State Left="240" Top="899" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="CheckUpdteGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="394" Top="866" Width="30" Height="30" />
+      <State Left="424" Top="866" Width="30" Height="30" />
+      <State Left="454" Top="866" Width="30" Height="30" />
+      <State Left="484" Top="866" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="AboutGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="516" Top="866" Width="30" Height="30" />
+      <State Left="546" Top="866" Width="30" Height="30" />
+      <State Left="576" Top="866" Width="30" Height="30" />
+      <State Left="606" Top="866" Width="30" Height="30" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="548" Top="495" Width="16" Height="16" />
+      <State Left="548" Top="495" Width="16" Height="16" />
+      <State Left="548" Top="495" Width="16" Height="16" />
+      <State Left="564" Top="495" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="TutorialFAQGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="150" Top="866" Width="30" Height="30" />
+      <State Left="180" Top="866" Width="30" Height="30" />
+      <State Left="210" Top="866" Width="30" Height="30" />
+      <State Left="240" Top="866" Width="30" Height="30" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+    </Part>
+  </Item>
+  <Item Name="WriteReviewGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="272" Top="899" Width="30" Height="30" />
+      <State Left="302" Top="899" Width="30" Height="30" />
+      <State Left="332" Top="899" Width="30" Height="30" />
+      <State Left="362" Top="899" Width="30" Height="30" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+    </Part>
+  </Item>
+  <Item Name="SuiteGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="394" Top="899" Width="30" Height="30" />
+      <State Left="424" Top="899" Width="30" Height="30" />
+      <State Left="454" Top="899" Width="30" Height="30" />
+      <State Left="484" Top="899" Width="30" Height="30" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+      <State Left="0" Top="0" Width="8" Height="8" />
+    </Part>
+  </Item>
+  <Item Name="OCRBtnBKG">
+    <Part id="0" Name="LargeUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="97" Top="19" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+      </State>
+      <State Left="54" Top="0" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+      </State>
+      <State Left="71" Top="0" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+      </State>
+      <State Left="91" Top="18" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="LargeChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="100" Top="23" Width="17" Height="16">
+        <Margins Left="7" Top="7" Right="8" Bottom="8" />
+      </State>
+      <State Left="117" Top="23" Width="17" Height="16">
+        <Margins Left="7" Top="7" Right="8" Bottom="8" />
+      </State>
+      <State Left="95" Top="24" Width="17" Height="16">
+        <Margins Left="7" Top="7" Right="8" Bottom="8" />
+      </State>
+      <State Left="112" Top="24" Width="17" Height="16">
+        <Margins Left="7" Top="7" Right="8" Bottom="8" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="2" Name="MiddleUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="97" Top="19" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+      </State>
+      <State Left="54" Top="0" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+      </State>
+      <State Left="71" Top="0" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+      </State>
+      <State Left="91" Top="18" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="3" Name="MiddleChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="96" Top="22" Width="17" Height="16">
+        <Margins Left="7" Top="7" Right="8" Bottom="8" />
+      </State>
+      <State Left="113" Top="22" Width="17" Height="16">
+        <Margins Left="7" Top="7" Right="8" Bottom="8" />
+      </State>
+      <State Left="130" Top="22" Width="17" Height="16">
+        <Margins Left="7" Top="7" Right="8" Bottom="8" />
+      </State>
+      <State Left="147" Top="22" Width="17" Height="16">
+        <Margins Left="7" Top="7" Right="8" Bottom="8" />
+      </State>
+    </Part>
+    <Part id="4" Name="SmallUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SelectedButton.png" />
+      <State Left="97" Top="19" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+      </State>
+      <State Left="54" Top="0" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+      </State>
+      <State Left="71" Top="0" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+      </State>
+      <State Left="91" Top="18" Width="17" Height="16">
+        <Margins Left="7" Top="8" Right="9" Bottom="7" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="5" Name="SmallChecked" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="AlignmentLeftGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormArrangeAlignment.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormArrangeAlignment.png" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="0" Top="0" Width="32" Height="24" />
+      <State Left="32" Top="0" Width="32" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="AlignmentRightGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="26" Top="11" Width="16" Height="16" />
+      <State Left="26" Top="11" Width="16" Height="16" />
+      <State Left="26" Top="11" Width="16" Height="16" />
+      <State Left="26" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="AlignmentTopGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="42" Top="11" Width="16" Height="16" />
+      <State Left="42" Top="11" Width="16" Height="16" />
+      <State Left="42" Top="11" Width="16" Height="16" />
+      <State Left="42" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="AlignmentBottomGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="58" Top="11" Width="16" Height="16" />
+      <State Left="58" Top="11" Width="16" Height="16" />
+      <State Left="58" Top="11" Width="16" Height="16" />
+      <State Left="58" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="AlignmentHorizontallyGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="150" Top="755" Width="27" Height="18" />
+      <State Left="177" Top="755" Width="27" Height="18" />
+      <State Left="204" Top="755" Width="27" Height="18" />
+      <State Left="231" Top="755" Width="27" Height="18" />
+    </Part>
+  </Item>
+  <Item Name="AlignmentVerticallyGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="90" Top="11" Width="16" Height="16" />
+      <State Left="90" Top="11" Width="16" Height="16" />
+      <State Left="90" Top="11" Width="16" Height="16" />
+      <State Left="90" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="CenterHorizontallyGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="106" Top="11" Width="16" Height="16" />
+      <State Left="106" Top="11" Width="16" Height="16" />
+      <State Left="106" Top="11" Width="16" Height="16" />
+      <State Left="106" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="CenterVerticallyGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="122" Top="11" Width="16" Height="16" />
+      <State Left="122" Top="11" Width="16" Height="16" />
+      <State Left="122" Top="11" Width="16" Height="16" />
+      <State Left="122" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="CenterBothGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="138" Top="11" Width="16" Height="16" />
+      <State Left="138" Top="11" Width="16" Height="16" />
+      <State Left="138" Top="11" Width="16" Height="16" />
+      <State Left="138" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="DistributeVerticallyGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormArrangeDistribute.png" />
+      <State Left="0" Top="0" Width="32" Height="24">
+        <Margins Left="4" Right="2" />
+      </State>
+      <State Left="0" Top="0" Width="32" Height="24">
+        <Margins Left="4" Right="2" />
+      </State>
+      <State Left="0" Top="0" Width="32" Height="24">
+        <Margins Left="4" Right="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="24">
+        <Margins Left="4" Right="2" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormArrangeDistribute.png" />
+      <State Left="0" Top="0" Width="32" Height="24">
+        <Margins Left="4" Right="2" />
+      </State>
+      <State Left="0" Top="0" Width="32" Height="24">
+        <Margins Left="4" Right="2" />
+      </State>
+      <State Left="0" Top="0" Width="32" Height="24">
+        <Margins Left="4" Right="2" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="24">
+        <Margins Left="4" Right="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="DistributeHorizontallyGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="MiddleSmall" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="170" Top="11" Width="16" Height="16" />
+      <State Left="170" Top="11" Width="16" Height="16" />
+      <State Left="170" Top="11" Width="16" Height="16" />
+      <State Left="170" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="CounterclockwiseButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="361" Top="292" Width="24" Height="24" />
+      <State Left="361" Top="292" Width="24" Height="24" />
+      <State Left="361" Top="292" Width="24" Height="24" />
+      <State Left="385" Top="292" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ClockwiseGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="303" Top="292" Width="24" Height="24" />
+      <State Left="303" Top="292" Width="24" Height="24" />
+      <State Left="303" Top="292" Width="24" Height="24" />
+      <State Left="327" Top="292" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="GoogleDriveGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="708" Top="285" Width="34" Height="32" />
+      <State Left="708" Top="285" Width="34" Height="32" />
+      <State Left="708" Top="285" Width="34" Height="32" />
+      <State Left="744" Top="285" Width="34" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="DropboxGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="424" Top="283" Width="28" Height="34" />
+      <State Left="424" Top="283" Width="28" Height="34" />
+      <State Left="424" Top="283" Width="28" Height="34" />
+      <State Left="452" Top="283" Width="28" Height="34" />
+    </Part>
+  </Item>
+  <Item Name="HelpFAQGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_UserGuide.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_UserGuide.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HelpCommunityGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Community.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Community.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HelpStartPageGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="760" Top="899" Width="30" Height="30" />
+      <State Left="790" Top="899" Width="30" Height="30" />
+      <State Left="820" Top="899" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="850" Top="899" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="HelpReviewGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="638" Top="866" Width="30" Height="30" />
+      <State Left="668" Top="866" Width="30" Height="30" />
+      <State Left="698" Top="866" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="728" Top="866" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="HelpFacebookGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="150" Top="899" Width="30" Height="30" />
+      <State Left="180" Top="899" Width="30" Height="30" />
+      <State Left="210" Top="899" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="240" Top="899" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="HelpFeedbackGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Feedback.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Feedback.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HelpSupportGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SupporCenter.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SupporCenter.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HelpVideoGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_YouTube.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_YouTube.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HelpUpdateGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_CheckUpdate.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_CheckUpdate.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HelpSuiteGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="394" Top="899" Width="30" Height="30" />
+      <State Left="424" Top="899" Width="30" Height="30" />
+      <State Left="454" Top="899" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="484" Top="899" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="HelpAboutGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Help.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Help.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HelpRegisterGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_LicenseInformation.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_LicenseInformation.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="HelpUserGuideGlyphi">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="516" Top="899" Width="30" Height="30" />
+      <State Left="546" Top="899" Width="30" Height="30" />
+      <State Left="576" Top="899" Width="30" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="606" Top="899" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="BatesNumberGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="660" Top="426" Width="42" Height="30" />
+      <State Left="702" Top="426" Width="42" Height="30" />
+      <State Left="744" Top="426" Width="42" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="786" Top="426" Width="42" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="BackGroundGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="320" Top="426" Width="42" Height="30" />
+      <State Left="362" Top="426" Width="42" Height="30" />
+      <State Left="404" Top="426" Width="42" Height="30">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="446" Top="426" Width="42" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="RemoveRegWatermarkGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Ribbon_New.png" />
+      <State Left="848" Top="301" Width="32" Height="32" />
+      <State Left="880" Top="301" Width="32" Height="32" />
+      <State Left="912" Top="301" Width="32" Height="32">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="944" Top="301" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="ProtectPasswordMgrGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PassWordManage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PassWordManage.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="MessageStartGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="1169" Top="1200" Width="32" Height="32" />
+      <State Left="1169" Top="1200" Width="32" Height="32" />
+      <State Left="1169" Top="1200" Width="32" Height="32">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="1210" Top="1200" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="MsgCenterNoNewGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="908" Top="92" Width="20" Height="16" />
+      <State Left="928" Top="92" Width="20" Height="16" />
+      <State Left="948" Top="92" Width="20" Height="16">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="968" Top="92" Width="20" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="MsgCenterHasNewGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="999" Top="92" Width="20" Height="16" />
+      <State Left="1019" Top="92" Width="20" Height="16" />
+      <State Left="1039" Top="92" Width="20" Height="16">
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="1059" Top="92" Width="20" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="MsgItemHaveReadGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="907" Top="57" Width="27" Height="32">
+        <Margins Top="1" Right="26" Bottom="1" />
+      </State>
+      <State Left="960" Top="62" Width="26" Height="21">
+        <Margins Top="1" Right="26" Bottom="1" />
+      </State>
+      <State Left="960" Top="62" Width="26" Height="21">
+        <Margins Top="1" Right="26" Bottom="1" />
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="907" Top="57" Width="27" Height="32">
+        <Margins Top="1" Right="26" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="MsgItemUnReadGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="933" Top="57" Width="27" Height="32">
+        <Margins Top="1" Right="26" Bottom="1" />
+      </State>
+      <State Left="986" Top="62" Width="26" Height="21">
+        <Margins Top="1" Right="26" Bottom="1" />
+      </State>
+      <State Left="986" Top="62" Width="26" Height="21">
+        <Margins Top="1" Right="26" Bottom="1" />
+        <Font Color="0xffb03f2e" />
+      </State>
+      <State Left="933" Top="57" Width="27" Height="32">
+        <Margins Top="1" Right="26" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RibbonExpandGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Ribbon_UnExpand.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="20" Top="0" Width="20" Height="20" />
+      <State Left="40" Top="0" Width="20" Height="20" />
+      <State Left="60" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="RibbonUnExpandGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Ribbon_Expand.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+      <State Left="20" Top="0" Width="20" Height="20" />
+      <State Left="40" Top="0" Width="20" Height="20" />
+      <State Left="60" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="ChargeIcon">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="666" Top="611" Width="16" Height="14" />
+      <State Left="683" Top="611" Width="15" Height="14" />
+      <State Left="698" Top="611" Width="15" Height="14" />
+      <State Left="713" Top="611" Width="15" Height="14" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="MessageRemind">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="1259" Top="1204" Width="7" Height="7" />
+    </Part>
+  </Item>
+  <Item Name="FormsResourceGlyph">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormTemplate.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ProtectMarkRedactionGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_MarkRedaction.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_MarkRedaction.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ProtectApplyRedactGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ApplyRedaction.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_ApplyRedaction.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ProtectSearchRedactGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SearchRecdaction.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SearchRecdaction.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PageOrganizationItem">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="0" Top="0" Width="4" Height="4" />
+      <State Left="438" Top="937" Width="134" Height="174">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xff854037" />
+      </State>
+      <State Left="296" Top="937" Width="134" Height="174">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PageOrganizationImageShadow">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Margins Left="18" Top="18" Right="18" Bottom="18" />
+      <State Left="150" Top="932" Width="142" Height="186">
+        <Margins Left="6" Top="6" Right="6" Bottom="9" />
+        <DestMargins Scale="True" Left="6" Top="6" Right="6" Bottom="9" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PageOrganizationLeftRotate">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="606" Top="1004" Width="30" Height="30" />
+      <State Left="636" Top="1004" Width="30" Height="30" />
+      <State Left="666" Top="1004" Width="30" Height="30" />
+      <State Left="696" Top="1004" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="PageOrganizationRightRotate">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="606" Top="965" Width="30" Height="30" />
+      <State Left="636" Top="965" Width="30" Height="30" />
+      <State Left="666" Top="965" Width="30" Height="30" />
+      <State Left="696" Top="965" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="PageOrganizationDelete">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="606" Top="1042" Width="30" Height="30" />
+      <State Left="636" Top="1042" Width="30" Height="30" />
+      <State Left="666" Top="1042" Width="30" Height="30" />
+      <State Left="696" Top="1042" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="PagePageLabelGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PageLabels.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PageLabels.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PagePageBoxGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PageBoxes.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PageBoxes.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="EditRotateLeft">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="101" Top="982" Width="30" Height="22" />
+      <State Left="131" Top="982" Width="30" Height="22" />
+      <State Left="132" Top="982" Width="30" Height="22" />
+      <State Left="191" Top="982" Width="30" Height="22" />
+      <State Left="131" Top="982" Width="30" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditRotateRight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="234" Top="982" Width="30" Height="22" />
+      <State Left="264" Top="982" Width="30" Height="22" />
+      <State Left="265" Top="982" Width="30" Height="22" />
+      <State Left="324" Top="982" Width="30" Height="22" />
+      <State Left="264" Top="982" Width="30" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditOverturnHorizontal">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="369" Top="982" Width="30" Height="22" />
+      <State Left="399" Top="982" Width="30" Height="22" />
+      <State Left="400" Top="982" Width="30" Height="22" />
+      <State Left="459" Top="982" Width="30" Height="22" />
+      <State Left="399" Top="982" Width="30" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditOverturnVertical">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="502" Top="982" Width="30" Height="22" />
+      <State Left="532" Top="982" Width="30" Height="22" />
+      <State Left="533" Top="982" Width="30" Height="22" />
+      <State Left="592" Top="982" Width="30" Height="22" />
+      <State Left="532" Top="982" Width="30" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditReplaceImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="101" Top="1015" Width="30" Height="22" />
+      <State Left="131" Top="1015" Width="30" Height="22" />
+      <State Left="132" Top="1015" Width="30" Height="22" />
+      <State Left="191" Top="1015" Width="30" Height="22" />
+      <State Left="131" Top="1015" Width="30" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="EditClipObject">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="234" Top="1015" Width="30" Height="22" />
+      <State Left="264" Top="1015" Width="30" Height="22" />
+      <State Left="265" Top="1015" Width="30" Height="22" />
+      <State Left="324" Top="1015" Width="30" Height="22" />
+      <State Left="264" Top="1015" Width="30" Height="22" />
+    </Part>
+  </Item>
+  <Item Name="FormsImageButtonGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormImageBtn.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_FormImageBtn.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ShareEmailBigGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SendToEmail.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SendToEmail.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ShareEvernoteBigGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="952" Top="964" Width="30" Height="30" />
+      <State Left="952" Top="964" Width="30" Height="30" />
+      <State Left="952" Top="964" Width="30" Height="30" />
+      <State Left="952" Top="964" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="ShareGoogleDriveGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SendToGoogleDrive.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SendToGoogleDrive.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ShareDropboxGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SendToDropbox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SendToDropbox.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="ShareDocSendGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SendToDocSend.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_SendToDocSend.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="PE70UI">
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="152" Top="175" Width="24" Height="24" />
+      <State Left="1017" Top="964" Width="24" Height="24" />
+      <State Left="1017" Top="964" Width="24" Height="24" />
+      <State Left="1017" Top="964" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="RibbonBuyNowBkg">
+    <Part id="0" Name="LargeUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_BuyNow_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="95" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="190" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="1" Name="LargeChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_BuyNow_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="95" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="190" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="2" Name="MiddleUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_BuyNow_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="95" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="190" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="3" Name="MiddleChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_BuyNow_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="95" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="190" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="4" Name="SmallUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_BuyNow_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="95" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="190" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="5" Name="SmallChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_BuyNow_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="95" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="190" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RibbonRegisterBkg">
+    <Part id="0" Name="LargeUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Register_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="77" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="154" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="1" Name="LargeChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Register_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="77" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="154" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="2" Name="MiddleUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Register_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="77" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="154" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="3" Name="MiddleChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Register_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="77" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="154" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="4" Name="SmallUnChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Register_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="77" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="154" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+    <Part id="5" Name="SmallChecked" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_Register_Bkg.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="77" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="154" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+      <State Left="0" Top="0" Width="77" Height="30">
+        <Margins Left="18" Top="14" Right="18" Bottom="14" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

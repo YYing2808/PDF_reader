@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="NavigationBKG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_left.png" />
+      <State Left="0" Top="0" Width="2" Height="37" />
+      <State Left="4" Top="0" Width="2" Height="37" />
+      <State Left="2" Top="0" Width="2" Height="37" />
+    </Part>
+  </Item>
+  <Item Name="OptionSeparator">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="CommonForm.png" />
+      <State Left="85" Top="167" Width="21" Height="2" />
+    </Part>
+  </Item>
+  <Item Name="OptionSetting">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="576" Top="224" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="OptionFont">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="608" Top="224" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="OptionUpdate">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="704" Top="224" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="OptionConvert">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="640" Top="224" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="OptionOCR">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="672" Top="224" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="OptionLeftPanel">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\batch_left.png" />
+      <State Left="0" Top="0" Width="2" Height="37" />
+    </Part>
+  </Item>
+  <Item Name="OptionCloseButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <State Left="852" Top="113" Width="24" Height="24" />
+      <State Left="876" Top="113" Width="24" Height="24" />
+      <State Left="900" Top="113" Width="24" Height="24" />
+      <State Left="924" Top="113" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="OptionConvertTabPanelBKG">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7/BatchRightBg.png" />
+      <State Left="43" Top="43" Width="13" Height="13" />
+    </Part>
+  </Item>
+  <Item Name="OptionConvertTabControl">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="1" Name="Header" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="2" Name="HeaderBkgnd" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="OptionConvertTabButtonLeft">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_OptimizeQuality.png" />
+      <State Left="0" Top="0" Width="20" Height="20">
+        <Margins Left="3" Top="2" Right="1" Bottom="2" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="20" Top="0" Width="20" Height="20">
+        <Margins Left="3" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="40" Top="0" Width="20" Height="20">
+        <Margins Left="3" Top="2" Right="2" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="OptionConvertTabButtonMiddle">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_OptimizeQuality.png" />
+      <State Left="0" Top="20" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="20" Top="20" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="40" Top="20" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="OptionConvertTabButtonRight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_OptimizeQuality.png" />
+      <State Left="0" Top="40" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="20" Top="40" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="40" Top="40" Width="20" Height="20">
+        <Margins Left="1" Top="2" Right="3" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="WizardTabButtonLeft">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_OptimizeQuality.png" />
+      <State Left="0" Top="0" Width="20" Height="20">
+        <Margins Left="3" Top="2" Right="1" Bottom="2" />
+      </State>
+      <State Left="20" Top="0" Width="20" Height="20">
+        <Margins Left="3" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="40" Top="0" Width="20" Height="20">
+        <Margins Left="3" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="WizardTabButtonRight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_OptimizeQuality.png" />
+      <State Left="0" Top="40" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="20" Top="40" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="40" Top="40" Width="20" Height="20">
+        <Margins Left="1" Top="2" Right="3" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

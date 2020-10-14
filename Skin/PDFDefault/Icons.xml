@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="IconSuccess">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="151" Top="13" Width="44" Height="44" />
+      <State Left="151" Top="13" Width="44" Height="44" />
+      <State Left="151" Top="13" Width="44" Height="44" />
+      <State Left="151" Top="57" Width="44" Height="44" />
+    </Part>
+  </Item>
+  <Item Name="IconWarning">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="55" Top="13" Width="44" Height="44" />
+      <State Left="55" Top="13" Width="44" Height="44" />
+      <State Left="55" Top="13" Width="44" Height="44" />
+      <State Left="55" Top="57" Width="44" Height="44" />
+    </Part>
+  </Item>
+  <Item Name="IconWarning32">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="photo_5.11.png" />
+      <State Left="380" Top="817" Width="17" Height="17" />
+      <State Left="380" Top="817" Width="17" Height="17" />
+      <State Left="380" Top="817" Width="17" Height="17" />
+      <State Left="380" Top="817" Width="17" Height="17" />
+    </Part>
+  </Item>
+  <Item Name="IconWarning16">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="162" Top="1175" Width="17" Height="17" />
+      <State Left="162" Top="1175" Width="17" Height="17" />
+      <State Left="162" Top="1175" Width="17" Height="17" />
+      <State Left="162" Top="1175" Width="17" Height="17" />
+    </Part>
+  </Item>
+  <Item Name="IconInfo16">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="180" Top="1153" Width="18" Height="18" />
+      <State Left="180" Top="1153" Width="18" Height="18" />
+      <State Left="180" Top="1153" Width="18" Height="18" />
+      <State Left="180" Top="1153" Width="18" Height="18" />
+    </Part>
+  </Item>
+  <Item Name="IconInfoOCRDownload">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="313" Top="1156" Width="75" Height="57" />
+    </Part>
+  </Item>
+  <Item Name="IconInfoOCRUpgrade">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="388" Top="1139" Width="62" Height="74" />
+    </Part>
+  </Item>
+  <Item Name="IconError">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="247" Top="13" Width="44" Height="44" />
+      <State Left="247" Top="13" Width="44" Height="44" />
+      <State Left="247" Top="13" Width="44" Height="44" />
+      <State Left="247" Top="57" Width="44" Height="44" />
+    </Part>
+  </Item>
+  <Item Name="IconQuestion">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="103" Top="13" Width="44" Height="44" />
+      <State Left="103" Top="13" Width="44" Height="44" />
+      <State Left="103" Top="13" Width="44" Height="44" />
+      <State Left="103" Top="57" Width="44" Height="44" />
+    </Part>
+  </Item>
+  <Item Name="IconInfo">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="199" Top="13" Width="44" Height="44" />
+      <State Left="199" Top="13" Width="44" Height="44" />
+      <State Left="199" Top="13" Width="44" Height="44" />
+      <State Left="199" Top="57" Width="44" Height="44" />
+    </Part>
+  </Item>
+  <Item Name="IconInfo13">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <State Left="296" Top="602" Width="18" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="SignOKBigImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SignOKBig.png" />
+      <State Left="0" Top="0" Width="36" Height="36" />
+    </Part>
+  </Item>
+  <Item Name="SignOKSmallImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SignOKSmall.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="SignWarningBigImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SignWarningBig.png" />
+      <State Left="0" Top="0" Width="36" Height="36" />
+    </Part>
+  </Item>
+  <Item Name="SignWarningSmallImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SignWarningSmall.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="SignNOBigImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SignNoBig.png" />
+      <State Left="0" Top="0" Width="36" Height="36" />
+    </Part>
+  </Item>
+  <Item Name="SignNoSmallImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="SignNOSmall.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="WarningSmallImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="WarningSmall.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="SignatureIcon">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="67" Top="581" Width="80" Height="21">
+        <Margins Left="6" Top="4" Right="22" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="IconSmile">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="532" Top="13" Width="50" Height="50" />
+      <State Left="532" Top="13" Width="50" Height="50" />
+      <State Left="532" Top="13" Width="50" Height="50" />
+      <State Left="532" Top="63" Width="50" Height="50" />
+    </Part>
+  </Item>
+  <Item Name="LoadingAnimation">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Loading.png" />
+      <State Left="0" Top="0" Width="60" Height="60">
+        <Animation FrameCount="18" FrameDelay="10" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="IconCry">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="584" Top="13" Width="50" Height="50" />
+      <State Left="584" Top="13" Width="50" Height="50" />
+      <State Left="584" Top="13" Width="50" Height="50" />
+      <State Left="584" Top="63" Width="50" Height="50" />
+    </Part>
+  </Item>
+  <Item Name="IconSmileSmall">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="644" Top="54" Width="32" Height="32" />
+      <State Left="644" Top="54" Width="32" Height="32" />
+      <State Left="644" Top="54" Width="32" Height="32" />
+      <State Left="676" Top="54" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="IconMarkForRedaction">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="1276" Top="1243" Width="32" Height="32" />
+      <State Left="1276" Top="1243" Width="32" Height="32" />
+      <State Left="1276" Top="1243" Width="32" Height="32" />
+      <State Left="1308" Top="1243" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="IconApplyRedaction">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="1340" Top="1243" Width="32" Height="32" />
+      <State Left="1340" Top="1243" Width="32" Height="32" />
+      <State Left="1340" Top="1243" Width="32" Height="32" />
+      <State Left="1372" Top="1243" Width="32" Height="32" />
+    </Part>
+  </Item>
+  <Item Name="AttachmentTypeGraph">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="14" Top="303" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="AttachmentTypePaperclip">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="14" Top="365" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="AttachmentTypeAttachment">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="19" Top="334" Width="20" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="AttachmentTypeTag">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="13" Top="277" Width="30" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="IconTypeAttachment">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="374" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="IconTypeGraph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="78" Top="374" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="IconTypePaperclip">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="129" Top="374" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="IconTypeTag">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="374" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="AttachmentTypeGraph12">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="78" Top="374" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="AttachmentTypeAttachment12">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="374" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="AttachmentTypePaperclip12">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="129" Top="374" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="AttachmentTypeTag12">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="374" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="IconFontBold">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_FontBold.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconFontItalic">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_FontItalic.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconFontDeleteLine">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_FontDeleteLine.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconFontUnderLine">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_FontUnderLine.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconFontSuperscript">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_FontSuperscript.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconFontSubscript">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_FontSubscript.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconAlignLeft">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_AlgnLeft.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconAlignCenter">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_AlignCenter.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconAlignJustified">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_AlignJustified.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconAlignRight">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_AlignRight.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconCharacterSpacing">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_CharacterSpacing.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="1" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_CharacterSpacing.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="IconLineSpacing">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_LineSpacing.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="1" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_LineSpacing.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="IconRotateLeft">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_RotateLeft.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="IconRotateRight">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_RotateRight.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="IconArrangeAlignment">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ArrangeAlignment.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+    <Part id="1" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ArrangeAlignment.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="IconArrangeDistribute">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ArrangeDistribute.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+    <Part id="1" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ArrangeDistribute.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="IconHorizontalFlip">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_HorizontalFlip.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="IconVerticalFlip">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_VerticalFlip.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="IconClip">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_Clip.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="IconImage">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_Image.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="IconArrowUpDown">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ArrowUpDown1.png" />
+      <State Left="0" Top="0" Width="9" Height="5" />
+    </Part>
+    <Part id="1" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ArrowUpDown2.png" />
+      <State Left="0" Top="0" Width="9" Height="5" />
+    </Part>
+  </Item>
+  <Item Name="IconArrowUp">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ArrowUp.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconArrowDown">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ArrowDown.png" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="IconColorYellow">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ColorYellow.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="IconColorRed">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ColorRed.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="IconColorOrange">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ColorOrange.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="IconColorBlue">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ColorBlue.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="IconColorGreen">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ColorGreen.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="IconColorPurple">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_ColorPurple.png" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="24" Top="0" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="IconLogoHorizontal">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_LogoHorizontal.png" />
+      <State Left="0" Top="0" Width="98" Height="55" />
+    </Part>
+  </Item>
+  <Item Name="IconLogoSemiTransparent">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_LogoSemiTransparent.png" />
+      <State Left="0" Top="0" Width="58" Height="61" />
+    </Part>
+  </Item>
+  <Item Name="IconLicenseInfoBkg">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_LicenseInfoBkg.png" />
+      <State Left="0" Top="0" Width="326" Height="190">
+        <Margins Left="15" Top="4" Right="15" Bottom="27" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="IconLicenseGrayBkg">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_LicenseGrayBkg.png" />
+      <State Left="0" Top="0" Width="20" Height="20">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="IconEmail">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_Email.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="IconLock">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_Lock.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="IconPasswordHide">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_PasswordHide.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+      <State Left="12" Top="0" Width="12" Height="12" />
+      <State Left="12" Top="0" Width="12" Height="12" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="IconPasswordShow">
+    <Part id="0" Name="frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Icons_PasswordShow.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+      <State Left="12" Top="0" Width="12" Height="12" />
+      <State Left="12" Top="0" Width="12" Height="12" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+</Skin>

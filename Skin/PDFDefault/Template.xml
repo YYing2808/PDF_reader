@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="BigLoading">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="BigLoading.png" />
+      <State Left="0" Top="1" Width="66" Height="66">
+        <Animation FrameCount="12" FrameDelay="10" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PopularGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <Padding Left="10" />
+      <State Left="87" Top="11" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="TreeViewExpand">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="289" Top="11" Width="24" Height="24" />
+      <State Left="264" Top="11" Width="24" Height="24" />
+      <State Left="264" Top="12" Width="24" Height="24" />
+      <State Left="264" Top="11" Width="24" Height="24">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="139" Top="11" Width="24" Height="24" />
+      <State Left="164" Top="11" Width="24" Height="24" />
+      <State Left="189" Top="11" Width="24" Height="24" />
+      <State Left="214" Top="11" Width="24" Height="24">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TreeViewCollapse">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="297" Top="11" Width="19" Height="24" />
+      <State Left="289" Top="11" Width="24" Height="24" />
+      <State Left="264" Top="11" Width="24" Height="24" />
+      <State Left="264" Top="11" Width="24" Height="24">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="NextPageButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="237" Top="134" Width="36" Height="56" />
+      <State Left="274" Top="134" Width="36" Height="56" />
+      <State Left="311" Top="134" Width="36" Height="56" />
+      <State Left="348" Top="134" Width="36" Height="56">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PreviousPageButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="200" Top="134" Width="36" Height="56" />
+      <State Left="163" Top="134" Width="36" Height="56" />
+      <State Left="126" Top="134" Width="36" Height="56" />
+      <State Left="89" Top="134" Width="36" Height="56">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TitleBackground">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="225" Top="109" Width="30" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TitleYellowBarre">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="464" Top="51" Width="49" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="SearchButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="314" Top="11" Width="24" Height="24" />
+      <State Left="339" Top="11" Width="24" Height="24" />
+      <State Left="364" Top="11" Width="24" Height="24" />
+      <State Left="233" Top="1563" Width="32" Height="32">
+        <Margins Left="6" Top="6" Right="6" Bottom="5" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="NoNetWork">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="89" Top="205" Width="140" Height="103" />
+    </Part>
+  </Item>
+  <Item Name="UnFavoriteBtnPreview">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="239" Top="51" Width="24" Height="24" />
+      <State Left="264" Top="51" Width="24" Height="24" />
+      <State Left="289" Top="51" Width="24" Height="24" />
+      <State Left="233" Top="1563" Width="32" Height="32">
+        <Margins Left="6" Top="6" Right="6" Bottom="5" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="FavoriteBtnPreview">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="264" Top="51" Width="24" Height="24" />
+      <State Left="264" Top="51" Width="24" Height="24" />
+      <State Left="289" Top="51" Width="24" Height="24" />
+      <State Left="233" Top="1563" Width="32" Height="32">
+        <Margins Left="6" Top="6" Right="6" Bottom="5" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="UnFavoriteBtnTumbail">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="414" Top="11" Width="24" Height="24" />
+      <State Left="439" Top="11" Width="24" Height="24" />
+      <State Left="464" Top="11" Width="24" Height="24" />
+      <State Left="233" Top="1563" Width="32" Height="32">
+        <Margins Left="6" Top="6" Right="6" Bottom="5" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="FavoriteBtnTumbail">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="439" Top="11" Width="24" Height="24" />
+      <State Left="439" Top="11" Width="24" Height="24" />
+      <State Left="464" Top="11" Width="24" Height="24" />
+      <State Left="233" Top="1563" Width="32" Height="32">
+        <Margins Left="6" Top="6" Right="6" Bottom="5" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CloseFavourite">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="389" Top="51" Width="24" Height="24" />
+      <State Left="414" Top="51" Width="24" Height="24" />
+      <State Left="439" Top="51" Width="24" Height="24" />
+      <State Left="439" Top="51" Width="24" Height="24">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TemplateBackGround">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="89" Top="373" Width="50" Height="63">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TemplateDescription">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="148" Top="373" Width="50" Height="63" />
+    </Part>
+  </Item>
+  <Item Name="TreeViewTop">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="89" Top="321" Width="284" Height="42">
+        <Margins Left="3" Top="1" Right="3" Bottom="5" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TreeViewFavorit">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="114" Top="11" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="SearchPnl">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="93" Top="321" Width="276" Height="42" />
+    </Part>
+  </Item>
+  <Item Name="ButtonReflash">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="89" Top="90" Width="30" Height="32">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="120" Top="90" Width="30" Height="32">
+        <Margins Left="4" Top="4" Right="5" Bottom="5" />
+      </State>
+      <State Left="151" Top="90" Width="30" Height="32">
+        <Margins Left="5" Top="4" Right="4" Bottom="5" />
+      </State>
+      <State Left="151" Top="90" Width="30" Height="32">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="BtnReturn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="89" Top="51" Width="24" Height="24" />
+      <State Left="114" Top="51" Width="24" Height="24" />
+      <State Left="139" Top="51" Width="24" Height="24" />
+      <State Left="139" Top="51" Width="24" Height="24">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="BtnDownTemolate">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="164" Top="51" Width="24" Height="24" />
+      <State Left="189" Top="51" Width="24" Height="24" />
+      <State Left="214" Top="51" Width="24" Height="24" />
+      <State Left="214" Top="51" Width="24" Height="24">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="BtnClosePreview">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="314" Top="51" Width="24" Height="24" />
+      <State Left="339" Top="51" Width="24" Height="24" />
+      <State Left="364" Top="51" Width="24" Height="24" />
+      <State Left="364" Top="51" Width="24" Height="24">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TemplateComboBox">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="91" Top="321" Width="280" Height="38">
+        <Margins Bottom="1" />
+      </State>
+      <State Left="91" Top="321" Width="280" Height="38" />
+      <State Left="91" Top="321" Width="280" Height="38" />
+      <State Left="91" Top="321" Width="280" Height="38" />
+    </Part>
+    <Part id="1" Name="Button" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="1" Top="1" Width="14" Height="5">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="25" Height="18">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="17" Height="16">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="25" Height="17">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="2" Name="ButtonGlyph" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="146" Top="18" Width="10" Height="9" />
+      <State Left="171" Top="19" Width="9" Height="7" />
+      <State Left="197" Top="19" Width="8" Height="6" />
+      <State Left="222" Top="19" Width="8" Height="7" />
+    </Part>
+  </Item>
+  <Item Name="DownLoadFileFaild">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="371" Top="218" Width="66" Height="66" />
+    </Part>
+  </Item>
+  <Item Name="TemplateThumbnailLoading">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="72" Top="334" Width="20" Height="20">
+        <Animation FrameCount="12" FrameDelay="50" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="BtnSubPreviewSelected">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="338" Top="91" Width="40" Height="20">
+        <Margins Left="3" Top="4" Right="3" />
+      </State>
+      <State Left="378" Top="91" Width="40" Height="20">
+        <Margins Left="3" Top="3" Right="3" />
+      </State>
+      <State Left="418" Top="91" Width="40" Height="20">
+        <Margins Left="3" Top="3" Right="3" />
+      </State>
+      <State Left="418" Top="91" Width="40" Height="20">
+        <Margins Left="3" Top="3" Right="3" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="BtnSubPreviewUnSel">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Template.png" />
+      <State Left="418" Top="91" Width="40" Height="20">
+        <Margins Left="3" Top="3" Right="3" />
+      </State>
+      <State Left="378" Top="91" Width="40" Height="20">
+        <Margins Left="3" Top="3" Right="3" />
+      </State>
+      <State Left="418" Top="91" Width="40" Height="20">
+        <Margins Left="3" Top="3" Right="3" />
+      </State>
+      <State Left="418" Top="91" Width="40" Height="20">
+        <Margins Left="3" Top="3" Right="3" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

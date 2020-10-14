@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="IconbtnFisrtPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="640" Top="960" Width="15" Height="15" />
+      <State Left="640" Top="960" Width="15" Height="15" />
+      <State Left="640" Top="960" Width="15" Height="15" />
+      <State Left="656" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="IconbtnPrevPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_PrePage.png" />
+      <State Left="0" Top="0" Width="5" Height="6" />
+      <State Left="5" Top="0" Width="5" Height="6" />
+      <State Left="5" Top="0" Width="5" Height="6" />
+      <State Left="5" Top="0" Width="5" Height="6" />
+    </Part>
+  </Item>
+  <Item Name="IconbtnNextPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_NextPage.png" />
+      <State Left="0" Top="0" Width="5" Height="6" />
+      <State Left="5" Top="0" Width="5" Height="6" />
+      <State Left="5" Top="0" Width="5" Height="6" />
+      <State Left="5" Top="0" Width="5" Height="6" />
+    </Part>
+  </Item>
+  <Item Name="IconbtnLastPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="720" Top="960" Width="15" Height="15" />
+      <State Left="720" Top="960" Width="15" Height="15" />
+      <State Left="720" Top="960" Width="15" Height="15" />
+      <State Left="736" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="IconZoomOut">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="384" Top="960" Width="15" Height="15" />
+      <State Left="384" Top="960" Width="15" Height="15" />
+      <State Left="384" Top="960" Width="15" Height="15" />
+      <State Left="400" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="IconZoomIn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="416" Top="960" Width="15" Height="15" />
+      <State Left="416" Top="960" Width="15" Height="15" />
+      <State Left="416" Top="960" Width="15" Height="15" />
+      <State Left="432" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="ZoomTrackBar">
+    <Part id="0" Name="Track" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_ZoomTracBar.png" />
+      <Position X="12" Y="3" X2="12" Y2="5" Height="12" />
+      <State Left="9" Top="1" Width="9" Height="4">
+        <Margins Left="3" Top="3" Right="3" />
+        <Spaces Left="12" Right="12" />
+      </State>
+      <State Left="0" Top="1" Width="9" Height="4">
+        <Margins Left="3" Top="3" Right="3" />
+        <Spaces Left="12" Right="12" />
+      </State>
+    </Part>
+    <Part id="1" Name="Pointer" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_TracBarPoint.png" />
+      <Position X="12" X2="12" Width="7" Height="16" />
+      <State Left="1" Top="1" Width="9" Height="10">
+        <Margins Left="8" Top="9" />
+      </State>
+      <State Left="11" Top="1" Width="9" Height="10">
+        <Margins Left="8" Top="9" />
+      </State>
+      <State Left="21" Top="1" Width="9" Height="10">
+        <Margins Left="8" Top="9" />
+      </State>
+      <State Left="21" Top="1" Width="9" Height="10">
+        <Margins Left="8" Top="9" />
+      </State>
+    </Part>
+    <Part id="2" Name="LeftCutButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_ZoomTracBar.png" />
+      <Position Y="13" X2="12" Width="12" Height="14" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="3" Name="RightCutButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_ZoomTracBar.png" />
+      <Position X="12" Y="13" Width="12" Height="14" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="FitWidthGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="288" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="FitPageGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="320" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="ZoomArrowGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="580" Top="966" Width="7" Height="4" />
+    </Part>
+  </Item>
+  <Item Name="SingleGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="96" Top="960" Width="15" Height="15" />
+      <State Left="96" Top="960" Width="15" Height="15" />
+      <State Left="96" Top="960" Width="15" Height="15" />
+      <State Left="96" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="ContinuousGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="128" Top="960" Width="15" Height="15" />
+      <State Left="128" Top="960" Width="15" Height="15" />
+      <State Left="128" Top="960" Width="15" Height="15" />
+      <State Left="128" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="FacingGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="160" Top="960" Width="15" Height="15" />
+      <State Left="160" Top="960" Width="15" Height="15" />
+      <State Left="160" Top="960" Width="15" Height="15" />
+      <State Left="160" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="FacingContinuous">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="192" Top="960" Width="15" Height="15" />
+      <State Left="192" Top="960" Width="15" Height="15" />
+      <State Left="192" Top="960" Width="15" Height="15" />
+      <State Left="192" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="Middle100">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="496" Top="966" Width="1" Height="3" />
+    </Part>
+  </Item>
+  <Item Name="CheckAsPressedBKG">
+    <Part id="0" Name="UnChecked" TransparentMode="Alpha">
+      <Graphic Name="custom.png" />
+      <State Left="4" Top="200" Width="1" Height="1" />
+      <State Left="3" Top="204" Width="19" Height="23" />
+      <State Left="23" Top="204" Width="19" Height="23" />
+      <State Left="6" Top="200" Width="1" Height="1" />
+    </Part>
+    <Part id="1" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="custom.png" />
+      <State Left="23" Top="204" Width="19" Height="23" />
+      <State Left="3" Top="204" Width="19" Height="23" />
+      <State Left="23" Top="204" Width="19" Height="23" />
+      <State Left="11" Top="187" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="FullScreenGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="352" Top="960" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="StatusPanel">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_MainBkg.png" />
+      <State Left="0" Top="0" Width="10" Height="24">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Main_BottomBarBkg.png" />
+      <State Left="0" Top="0" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="BottomButtonBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_ButtonBkg.png" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="6" Height="20">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="6" Top="0" Width="6" Height="20">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="SingleViewGlyph">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_Single.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="SingleContinueViewGlyph">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_SingleConinue.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="FacingViewGlyph">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_Facing.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="FacingContinueViewGlyph">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_FacingContinue.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ZoomOutGlyph">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_ZoomOut.png" />
+      <State Left="0" Top="0" Width="7" Height="7" />
+      <State Left="7" Top="0" Width="7" Height="7" />
+    </Part>
+  </Item>
+  <Item Name="ZoomInGlyph">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Bottom_ZoomIn.png" />
+      <State Left="0" Top="0" Width="7" Height="7" />
+      <State Left="7" Top="0" Width="7" Height="7" />
+    </Part>
+  </Item>
+</Skin>

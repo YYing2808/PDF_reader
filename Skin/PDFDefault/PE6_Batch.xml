@@ -1,0 +1,416 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ButtonBatchConvert">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_convert.png" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchDataExtract">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_dataExtra.png" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchBatesNumber">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_number.png" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchWatermark">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_waterbark.png" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchBKG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_left.png" />
+      <State Left="0" Top="0" Width="2" Height="37">
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="4" Top="0" Width="2" Height="37">
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="2" Top="0" Width="2" Height="37">
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchConfigSetting">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_Setting.png" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchItemDelete">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_Filedelete.png" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+      <State Left="15" Top="0" Width="15" Height="15" />
+      <State Left="15" Top="0" Width="15" Height="15" />
+      <State Left="30" Top="0" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="ProgressBarBatch">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_ProgressBar.png" />
+      <State Left="7" Top="1" Width="5" Height="3" />
+      <State Left="2" Top="1" Width="4" Height="3" />
+    </Part>
+  </Item>
+  <Item Name="PanelBatchLeft">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7/BatchLeftBg.png" />
+      <State Left="1" Top="1" Width="19" Height="19" />
+    </Part>
+  </Item>
+  <Item Name="PanelBatchRight">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7/BatchRightBg.png" />
+      <Margins Left="30" Top="30" Right="30" Bottom="30" />
+      <State Left="0" Top="0" Width="100" Height="100">
+        <Margins Left="32" Top="32" Right="32" Bottom="32" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PanelBatchPreview">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_dataExtractBG.png" />
+      <State Left="0" Top="0" Width="16" Height="16">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ImageBatchPreviewBorder">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Batch.png" />
+      <State Left="208" Top="393" Width="149" Height="49" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchAddFiles">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\batch_addfile.png" />
+      <State Left="172" Top="31" Width="36" Height="36" />
+      <State Left="553" Top="31" Width="36" Height="36" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchPDFIcon">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_File.png" />
+      <State Left="0" Top="0" Width="36" Height="36" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_File.png" />
+      <State Left="36" Top="0" Width="36" Height="36" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchPDFProtect">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_File.png" />
+      <State Left="72" Top="0" Width="36" Height="36" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_File.png" />
+      <State Left="108" Top="0" Width="36" Height="36" />
+    </Part>
+    <Part id="2" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_File.png" />
+      <State Left="144" Top="0" Width="36" Height="36" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchForm">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_Fileform.png" />
+      <State Left="0" Top="0" Width="30" Height="12" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_Fileform.png" />
+      <State Left="0" Top="0" Width="30" Height="12" />
+    </Part>
+    <Part id="2" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_Fileform.png" />
+      <State Left="0" Top="0" Width="30" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchPDFScanned">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_Filescanned.png" />
+      <State Left="0" Top="0" Width="42" Height="12" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_Filescanned.png" />
+      <State Left="0" Top="0" Width="42" Height="12" />
+    </Part>
+    <Part id="2" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_Filescanned.png" />
+      <State Left="0" Top="0" Width="42" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchXFA">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_FileXFA.png" />
+      <State Left="0" Top="0" Width="25" Height="12" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_FileXFA.png" />
+      <State Left="0" Top="0" Width="25" Height="12" />
+    </Part>
+    <Part id="2" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_FileXFA.png" />
+      <State Left="0" Top="0" Width="25" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchCannot">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Batch.png" />
+      <State Left="23" Top="300" Width="18" Height="18" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Batch.png" />
+      <State Left="41" Top="300" Width="18" Height="18" />
+    </Part>
+    <Part id="2" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Batch.png" />
+      <State Left="59" Top="300" Width="18" Height="18" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchSuccess">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_FileFinished.png" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchFailed">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Batch_FilesError.png" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchWarning">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Batch.png" />
+      <State Left="87" Top="300" Width="20" Height="18" />
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Batch.png" />
+      <State Left="107" Top="300" Width="20" Height="16" />
+    </Part>
+    <Part id="2" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Batch.png" />
+      <State Left="127" Top="300" Width="20" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageBatchHint">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_tip.png" />
+      <State Left="0" Top="0" Width="11" Height="11" />
+    </Part>
+  </Item>
+  <Item Name="PanelFindBKG">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="102" Top="751" Width="30" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonFindPreBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="102" Top="791" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="132" Top="791" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="162" Top="791" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="192" Top="791" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonFindNextBtn">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="234" Top="791" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="264" Top="791" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="294" Top="791" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="324" Top="791" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PanelPageNoShow">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <State Left="397" Top="719" Width="80" Height="30">
+        <Margins Left="5" Top="5" Right="5" Bottom="5" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchOptimize">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_optimize.png" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchOcr">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_ocr.png" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchEncrypt">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_Encrypt.png" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="14" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="14" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="BatchCloseButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/batch_closeBtn.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="BatchAddFile">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_AddFilesmall.png" />
+      <State Left="0" Top="0" Width="11" Height="11" />
+      <State Left="0" Top="0" Width="11" Height="11" />
+      <State Left="0" Top="0" Width="11" Height="11" />
+    </Part>
+  </Item>
+  <Item Name="BatchClearAll">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_ClearAll.png" />
+      <State Left="0" Top="0" Width="11" Height="11" />
+      <State Left="0" Top="0" Width="11" Height="11" />
+      <State Left="0" Top="0" Width="11" Height="11" />
+    </Part>
+  </Item>
+  <Item Name="BatchButtonBackground">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_addBg.png" />
+      <State Left="0" Top="0" Width="60" Height="20">
+        <Margins Left="1" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="60" Top="0" Width="60" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="120" Top="0" Width="60" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="BatchBtnBKG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_SettingBg.png" />
+      <State Left="0" Top="0" Width="32" Height="26" />
+      <State Left="32" Top="0" Width="32" Height="26" />
+      <State Left="64" Top="0" Width="32" Height="26" />
+      <State Left="96" Top="0" Width="32" Height="26" />
+    </Part>
+  </Item>
+  <Item Name="BatchSettingAddBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_SettingAdd.png" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+    </Part>
+  </Item>
+  <Item Name="BatchSettingMore">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_Settingmore.png" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchOptimizeHighBKG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_OptimizeQuality.png" />
+      <State Left="0" Top="0" Width="20" Height="20">
+        <Margins Left="3" Top="2" Right="1" Bottom="2" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="20" Top="0" Width="20" Height="20">
+        <Margins Left="3" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="40" Top="0" Width="20" Height="20">
+        <Margins Left="3" Top="2" Right="2" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchOptimizeMediumBKG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_OptimizeQuality.png" />
+      <State Left="0" Top="20" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="20" Top="20" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="40" Top="20" Width="20" Height="20">
+        <Margins Left="1" Top="2" Right="1" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonBatchOptimizeLowBKG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_OptimizeQuality.png" />
+      <State Left="0" Top="40" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="20" Top="40" Width="20" Height="20">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="40" Top="40" Width="20" Height="20">
+        <Margins Left="1" Top="2" Right="3" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

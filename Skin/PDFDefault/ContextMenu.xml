@@ -1,0 +1,729 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ImageCut">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="156" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCopy">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="156" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImagePaste">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="131" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDelete">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="57" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageSelectAll">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="131" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDeSelectAll">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="131" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageLink">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="288" Top="768" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageShare">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="156" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageEvernote">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="205" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDropbox">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="205" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAllToDropbox">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="205" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageGoogleDrive">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="229" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAllToGoogleDrive">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="229" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignment">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="180" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentLeft">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="180" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentRight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="180" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentTop">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="180" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentBottom">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="180" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentHorizontal">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="180" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentVertical">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="180" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDistribute">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="205" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDistributeHorizontal">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="205" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDistributeVertical">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="205" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAddNote">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="156" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAddBookmark">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="106" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAddText">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="205" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAddImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="82" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCommentHighlight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="353" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCommentUnderline">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="353" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCommentCrossOut">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="353" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCommentReplaceText">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="224" Top="672" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCommentSquigglyText">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="353" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCommentInsertText">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="353" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCommentAddNoteToText">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="353" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageZoomIn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="82" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageZoomOut">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="82" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageNextPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="156" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImagePreviousPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="156" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageExtractmage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="82" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImagePrint">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="82" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAnnoExpandAll">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="131" Width="16" Height="16" />
+      <State Left="52" Top="131" Width="16" Height="16" />
+      <State Left="52" Top="131" Width="16" Height="16" />
+      <State Left="78" Top="131" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAnnoCollapseAll">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="131" Width="16" Height="16" />
+      <State Left="103" Top="131" Width="16" Height="16" />
+      <State Left="103" Top="131" Width="16" Height="16" />
+      <State Left="129" Top="131" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageProperties">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="229" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageMarkDefault">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="229" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageSetTabOrder">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="229" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageMultipleCopies">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="357" Top="57" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageOpenPopup">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="384" Top="832" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageWholeWords">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="480" Top="864" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCaseSensitive">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="512" Top="864" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageIncludeComments">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="544" Top="864" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageIncludeFromData">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="576" Top="864" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageRename">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="106" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAddBefore">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="352" Top="864" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAddAfter">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="384" Top="864" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAddChild">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="106" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageSetDestination">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="106" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ExpandAllBookMarks">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="106" Width="16" Height="16" />
+      <State Left="256" Top="106" Width="16" Height="16" />
+      <State Left="256" Top="106" Width="16" Height="16" />
+      <State Left="282" Top="106" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="CollapseBookMarks">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="106" Width="16" Height="16" />
+      <State Left="307" Top="106" Width="16" Height="16" />
+      <State Left="307" Top="106" Width="16" Height="16" />
+      <State Left="333" Top="106" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageInsertPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="57" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageReplacePage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="57" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageExtractPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="57" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageRotatePage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="57" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageOCRPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="57" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageReducePage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="256" Top="864" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageEnlargePage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="288" Top="864" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCreateStamp">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="279" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageManagerStamp">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="279" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageIdentityEdit">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="358" Top="279" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageInsertBlankPage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="82" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageInsertFormPDF">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="82" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageNewWatermark">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="328" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDeleteWatermark">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="328" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageUpdateWatermark">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="328" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageNewBackground">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="303" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDeleteBackground">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="303" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageUpdateBackground">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="303" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCurrentDocBatesNumber">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="328" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDeleteBatesNumber">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="328" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageNewHeaderFooter">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="303" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageUpdateHeaderFooter">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="303" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDeleteHeaderFooter">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="303" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageExtractImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="131" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageConvertToPPT">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="254" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageConvertToExcel">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="254" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageConvertToImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="254" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageConvertToText">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="254" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageConvertToHWP">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="154" Top="279" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageConvertToHWPX">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="205" Top="279" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageConvertToEPUB">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="254" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageConvertToHTML">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="279" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageConvertToRTF">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="279" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentLeft">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="11" Top="11" Width="16" Height="16" />
+      <State Left="11" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentRight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="27" Top="11" Width="16" Height="16" />
+      <State Left="27" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentTop">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="43" Top="11" Width="16" Height="16" />
+      <State Left="43" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentBottom">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="59" Top="11" Width="16" Height="16" />
+      <State Left="59" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentHorizontally">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="256" Top="180" Width="16" Height="16" />
+      <State Left="282" Top="180" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAlignmentVertically">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="180" Width="16" Height="16" />
+      <State Left="333" Top="180" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCenterHorizontally">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="107" Top="11" Width="16" Height="16" />
+      <State Left="107" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCenterVertically">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="123" Top="11" Width="16" Height="16" />
+      <State Left="123" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageCenterBoth">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="align.png" />
+      <State Left="138" Top="11" Width="16" Height="16" />
+      <State Left="138" Top="28" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDistributeVertically">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="103" Top="205" Width="16" Height="16" />
+      <State Left="129" Top="205" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDistributeHorizontally">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="52" Top="205" Width="16" Height="16" />
+      <State Left="78" Top="205" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImagePageLabel">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="307" Top="229" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageRotateLeft">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="78" Top="14" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageRotateRight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="28" Top="14" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageOverturnHorizontal">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="129" Top="14" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageOverturnVertical">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="180" Top="14" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageReplaceImage">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="231" Top="14" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageClipObject">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="282" Top="14" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageTileHorizontal">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="78" Top="35" Width="16" Height="16" />
+      <State Left="102" Top="35" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageTileVertical">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="28" Top="35" Width="16" Height="16" />
+      <State Left="52" Top="35" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageOpenAttachment">
+    <Part id="0" Name="frame(0)" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="333" Top="14" Width="16" Height="16" />
+      <State Left="357" Top="14" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageSaveAttachment">
+    <Part id="0" Name="frame(0)" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="129" Top="35" Width="16" Height="16" />
+      <State Left="154" Top="35" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageAddAttachment">
+    <Part id="0" Name="frame(0)" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="180" Top="35" Width="16" Height="16" />
+      <State Left="205" Top="35" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageEditAttachment">
+    <Part id="0" Name="frame(0)" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="333" Top="35" Width="16" Height="16" />
+      <State Left="357" Top="35" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="ImageDelAttachment">
+    <Part id="0" Name="frame(0)" TransparentMode="Alpha">
+      <Graphic Name="PE6_ContextMenu.png" />
+      <State Left="231" Top="35" Width="16" Height="16" />
+      <State Left="256" Top="35" Width="16" Height="16" />
+    </Part>
+  </Item>
+</Skin>

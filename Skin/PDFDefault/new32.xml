@@ -1,0 +1,326 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="DeleteButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="new32.png" />
+      <State Left="19" Top="103" Width="2" Height="2">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="27" Top="106" Width="13" Height="13">
+        <Margins Left="5" Top="6" Right="7" Bottom="6" />
+      </State>
+      <State Left="40" Top="106" Width="13" Height="13">
+        <Margins Left="5" Top="6" Right="7" Bottom="6" />
+      </State>
+      <State Left="1" Top="106" Width="13" Height="13">
+        <Margins Left="5" Top="6" Right="7" Bottom="6" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="DeleteButtonGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="new32.png" />
+      <State Left="53" Top="106" Width="13" Height="13" />
+    </Part>
+  </Item>
+  <Item Name="DeleteButtonGlyph2">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="298" Top="1236" Width="13" Height="13" />
+      <State Left="319" Top="1236" Width="13" Height="13" />
+      <State Left="340" Top="1236" Width="13" Height="13" />
+      <State Left="361" Top="1236" Width="13" Height="13" />
+    </Part>
+  </Item>
+  <Item Name="DeleteButtonWhiteGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <State Left="272" Top="626" Width="20" Height="20" />
+      <State Left="296" Top="626" Width="20" Height="20" />
+      <State Left="320" Top="626" Width="20" Height="20" />
+      <State Left="344" Top="626" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="DeleteButtonGlyphConverFile">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Batch_Filedelete.png" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+      <State Left="15" Top="0" Width="15" Height="15" />
+      <State Left="15" Top="0" Width="15" Height="15" />
+      <State Left="30" Top="0" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="DrapDropFileImage">
+    <Part id="0" Name="Frame" FillMode="center" TransparentMode="Alpha">
+      <Graphic Name="PE7\batch_addfile.png" />
+      <State Left="0" Top="0" Width="380" Height="120" />
+    </Part>
+  </Item>
+  <Item Name="TransparentBKG">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="new32.png" />
+      <State Left="181" Top="49" Width="7" Height="7">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="188" Top="49" Width="7" Height="7" />
+      <State Left="195" Top="49" Width="7" Height="7" />
+      <State Left="202" Top="49" Width="7" Height="7" />
+    </Part>
+  </Item>
+  <Item Name="PartTransparentBKG">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="MainForm.png" />
+      <State Left="15" Top="8" Width="9" Height="1" />
+      <State Left="15" Top="8" Width="9" Height="1" />
+      <State Left="15" Top="8" Width="9" Height="1" />
+      <State Left="15" Top="8" Width="9" Height="1" />
+    </Part>
+  </Item>
+  <Item Name="NoBorderForm">
+    <Part id="0" Name="Form" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Margins Left="9" Top="8" Right="9" Bottom="10" />
+      <State Left="131" Top="62" Width="66" Height="82">
+        <Margins Left="9" Top="8" Right="9" Bottom="10" />
+        <DestMargins Scale="True" Left="9" Top="8" Right="9" Bottom="10" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="NoBorderShadowForm">
+    <Part id="0" Name="Form" TransparentMode="Alpha">
+      <Graphic Name="PE7/BatchRightBg.png" />
+      <Margins Left="30" Top="30" Right="30" Bottom="30" />
+      <State Left="0" Top="0" Width="100" Height="100">
+        <Margins Left="32" Top="32" Right="32" Bottom="32" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ThickBorderShadowForm">
+    <Part id="0" Name="Form" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      <State Left="277" Top="108" Width="94" Height="23">
+        <Margins Left="5" Top="5" Right="5" Bottom="5" />
+        <DestMargins Scale="True" Left="5" Top="5" Right="5" Bottom="5" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ThinBorderForm">
+    <Part id="0" Name="Form" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <Region type="Auto" />
+      <Margins Left="1" Right="1" Bottom="1" Caption="27" />
+      <State Left="137" Top="69" Width="101" Height="101">
+        <Margins Left="1" Top="28" Right="1" Bottom="2" />
+        <DestMargins Scale="True" Left="1" Top="28" Right="1" Bottom="2" />
+      </State>
+      <State Left="296" Top="69" Width="101" Height="101">
+        <Margins Left="1" Top="28" Right="1" Bottom="2" />
+        <DestMargins Scale="True" Left="1" Top="28" Right="1" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Visible="False">
+      <Position RelPos="Top" Scale="False" X="26" Y="3" X2="26" Height="20" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clWhiteSmoke" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" Scale="False" X="6" Y="6" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="24" Y="2" Width="24" Height="24" />
+      <State Left="249" Top="113" Width="24" Height="24" />
+      <State Left="273" Top="113" Width="24" Height="24" />
+      <State Left="297" Top="113" Width="24" Height="24" />
+      <State Left="321" Top="113" Width="24" Height="24" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="48" Y="2" Width="24" Height="24" />
+      <State Left="150" Top="113" Width="24" Height="24" />
+      <State Left="174" Top="113" Width="24" Height="24" />
+      <State Left="198" Top="113" Width="24" Height="24" />
+      <State Left="222" Top="113" Width="24" Height="24" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="24" Y="2" Width="24" Height="24" />
+      <State Left="348" Top="113" Width="24" Height="24" />
+      <State Left="372" Top="113" Width="24" Height="24" />
+      <State Left="396" Top="113" Width="24" Height="24" />
+      <State Left="420" Top="113" Width="24" Height="24" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" Y="2" Width="24" Height="24" />
+      <Padding Top="2" />
+      <State Left="447" Top="113" Width="24" Height="24" />
+      <State Left="471" Top="113" Width="24" Height="24" />
+      <State Left="495" Top="113" Width="24" Height="24" />
+      <State Left="519" Top="113" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FreeTrialGBtnBuy">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="712" Top="1561" Width="170" Height="36">
+        <Margins Left="15" Top="14" Right="15" Bottom="14" />
+      </State>
+      <State Left="712" Top="1561" Width="170" Height="36">
+        <Margins Left="15" Top="14" Right="15" Bottom="14" />
+      </State>
+      <State Left="712" Top="1561" Width="170" Height="36">
+        <Margins Left="15" Top="14" Right="15" Bottom="14" />
+      </State>
+      <State Left="712" Top="1605" Width="170" Height="36">
+        <Margins Left="15" Top="14" Right="15" Bottom="14" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="FreeTrialGBtnCT">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="712" Top="1650" Width="170" Height="36">
+        <Margins Left="16" Top="14" Right="15" Bottom="14" />
+      </State>
+      <State Left="712" Top="1650" Width="170" Height="36">
+        <Margins Left="15" Top="14" Right="15" Bottom="14" />
+      </State>
+      <State Left="712" Top="1650" Width="170" Height="36">
+        <Margins Left="15" Top="14" Right="15" Bottom="14" />
+      </State>
+      <State Left="712" Top="1694" Width="170" Height="36">
+        <Margins Left="15" Top="14" Right="15" Bottom="14" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="FreeTrialGImgdays">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="1371" Top="1372" Width="100" Height="100">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="FreeTrialGImgIconBlue">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="877" Top="1519" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="FreeTrialGImgIconYellow">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="857" Top="1519" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="OpenBigIcon">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="1161" Top="1372" Width="104" Height="100">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="1161" Top="1372" Width="104" Height="100">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="1161" Top="1372" Width="104" Height="100">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="1265" Top="1372" Width="104" Height="100">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="NewBlankBigIcon">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="951" Top="1372" Width="100" Height="100">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="951" Top="1372" Width="100" Height="100">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="951" Top="1372" Width="100" Height="100">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="1051" Top="1372" Width="100" Height="100">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="WhiteBackGroundBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="168" Top="377" Width="8" Height="8" />
+      <State Left="180" Top="377" Width="8" Height="8" />
+      <State Left="168" Top="377" Width="8" Height="8" />
+      <State Left="168" Top="377" Width="8" Height="8" />
+    </Part>
+  </Item>
+  <Item Name="BtnCloseBig">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="706" Top="610" Width="16" Height="16" />
+      <State Left="722" Top="610" Width="16" Height="16" />
+      <State Left="738" Top="610" Width="16" Height="16" />
+      <State Left="722" Top="610" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="PurForBizBtnClose">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="861" Top="612" Width="14" Height="14" />
+      <State Left="875" Top="612" Width="14" Height="14" />
+      <State Left="875" Top="612" Width="14" Height="14" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="PurForBizBtnGetDisc">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="712" Top="1737" Width="170" Height="36">
+        <Margins Left="17" Top="17" Right="17" Bottom="17" />
+      </State>
+      <State Left="712" Top="1737" Width="170" Height="36">
+        <Margins Left="17" Top="17" Right="17" Bottom="17" />
+      </State>
+      <State Left="711" Top="1775" Width="170" Height="36">
+        <Margins Left="17" Top="17" Right="17" Bottom="17" />
+      </State>
+      <State Left="711" Top="1775" Width="170" Height="36">
+        <Margins Left="17" Top="17" Right="17" Bottom="17" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PurForBizBtnReqAQue">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="712" Top="1837" Width="170" Height="36">
+        <Margins Left="17" Top="17" Right="17" Bottom="17" />
+      </State>
+      <State Left="712" Top="1837" Width="170" Height="36">
+        <Margins Left="17" Top="17" Right="17" Bottom="17" />
+      </State>
+      <State Left="712" Top="1875" Width="170" Height="36">
+        <Margins Left="17" Top="17" Right="17" Bottom="17" />
+      </State>
+      <State Left="712" Top="1875" Width="170" Height="36">
+        <Margins Left="17" Top="17" Right="17" Bottom="17" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PurForBizBtnInqNow">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="763" Top="606" Width="26" Height="26" />
+      <State Left="789" Top="606" Width="26" Height="26" />
+      <State Left="815" Top="606" Width="26" Height="26" />
+      <State Left="815" Top="606" Width="26" Height="26" />
+    </Part>
+  </Item>
+</Skin>

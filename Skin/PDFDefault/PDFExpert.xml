@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="ExpertLogo">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_Logo.png" />
+      <State Left="0" Top="0" Width="80" Height="53" />
+    </Part>
+  </Item>
+  <Item Name="WeChatLogo">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_WeChatLogo.png" />
+      <State Left="0" Top="0" Width="43" Height="43" />
+    </Part>
+  </Item>
+  <Item Name="ExpertCompanyLogo">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_CompanyLogo.png" />
+      <State Left="0" Top="0" Width="43" Height="43" />
+    </Part>
+  </Item>
+  <Item Name="QRCodeBorder">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_QrCodeBorder.png" />
+      <State Left="0" Top="0" Width="160" Height="160">
+        <Margins Left="2" Top="2" Right="2" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="MobileIcon">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_MobileIcon.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="VerifyCodeIcon">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_VerifyCodeIcon.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="ReturnIcon">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_ReturnIcon.png" />
+      <State Left="0" Top="0" Width="16" Height="16">
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="16" Top="0" Width="16" Height="16">
+        <Font Color="0xff999999" />
+      </State>
+      <State Left="32" Top="0" Width="16" Height="16">
+        <Font Color="0xff775c77" />
+      </State>
+      <State Left="48" Top="0" Width="16" Height="16">
+        <Font Color="0xffd0bcd0" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="UserDefaultAvatorBig">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_DefautAvatarBig.png" />
+      <State Left="0" Top="0" Width="50" Height="50" />
+    </Part>
+  </Item>
+  <Item Name="UserDefaultAvatorMid">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_DefautAvatarMid.png" />
+      <State Left="0" Top="0" Width="40" Height="40" />
+    </Part>
+  </Item>
+  <Item Name="UserDefaultAvatorSmall">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\PDFExpert_DefautAvatarSmall.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+</Skin>

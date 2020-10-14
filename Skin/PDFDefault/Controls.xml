@@ -1,0 +1,1325 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="Button">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_Button.png" />
+      <Font Color="0xfffd5b43" />
+      <State Left="0" Top="0" Width="40" Height="28">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="40" Top="0" Width="40" Height="28">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="80" Top="0" Width="40" Height="28">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+        <Font Color="0xff222222" />
+      </State>
+      <State Left="120" Top="0" Width="40" Height="28">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="Button_PE7">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Control_Button.png" />
+      <Font Color="clWhite" />
+      <State Left="0" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="40" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="80" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="120" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="DialogFormCloseBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_SkinFormCloseButton.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+   <Item Name="ListViewRemoveItemBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\RemoveItembtn.png" />
+      <State Left="0" Top="0" Width="16" Height="16" /> 
+    </Part>
+  </Item>
+  <Item Name="CheckBox">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_CheckBox.png" />
+      <State Left="0" Top="10" Width="10" Height="10" />
+      <State Left="10" Top="10" Width="10" Height="10" />
+      <State Left="10" Top="10" Width="10" Height="10" />
+      <State Left="20" Top="10" Width="10" Height="10">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_CheckBox.png" />
+      <State Left="0" Top="0" Width="10" Height="10" />
+      <State Left="10" Top="0" Width="10" Height="10" />
+      <State Left="10" Top="0" Width="10" Height="10" />
+      <State Left="20" Top="0" Width="10" Height="10">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="SmallCheckBox">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="162" Top="724" Width="9" Height="9" />
+      <State Left="171" Top="724" Width="9" Height="9" />
+      <State Left="180" Top="724" Width="9" Height="9" />
+      <State Left="162" Top="724" Width="9" Height="9">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="132" Top="724" Width="9" Height="9" />
+      <State Left="141" Top="724" Width="9" Height="9" />
+      <State Left="150" Top="724" Width="9" Height="9" />
+      <State Left="132" Top="724" Width="9" Height="9">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="AllCheckedCheckBox">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="307" Top="724" Width="12" Height="12" />
+      <State Left="319" Top="724" Width="12" Height="12" />
+      <State Left="331" Top="724" Width="12" Height="12" />
+      <State Left="343" Top="724" Width="12" Height="12">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="192" Top="724" Width="12" Height="12" />
+      <State Left="204" Top="724" Width="12" Height="12" />
+      <State Left="216" Top="724" Width="12" Height="12" />
+      <State Left="228" Top="724" Width="12" Height="12">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RadioButton">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_RadioButton.png" />
+      <State Left="0" Top="10" Width="10" Height="10" />
+      <State Left="10" Top="10" Width="10" Height="10" />
+      <State Left="10" Top="10" Width="10" Height="10" />
+      <State Left="20" Top="10" Width="10" Height="10">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_RadioButton.png" />
+      <State Left="0" Top="0" Width="10" Height="10" />
+      <State Left="10" Top="0" Width="10" Height="10" />
+      <State Left="10" Top="0" Width="10" Height="10" />
+      <State Left="20" Top="0" Width="10" Height="10">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RadioButtonNoHot">
+    <Part id="0" Name="Checked" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="195" Top="1184" Width="16" Height="16" />
+      <State Left="211" Top="1184" Width="16" Height="16" />
+      <State Left="227" Top="1184" Width="16" Height="16" />
+      <State Left="243" Top="1184" Width="16" Height="16">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="UnChecked" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="131" Top="1184" Width="16" Height="16" />
+      <State Left="147" Top="1184" Width="16" Height="16" />
+      <State Left="163" Top="1184" Width="16" Height="16" />
+      <State Left="179" Top="1184" Width="16" Height="16">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="Edit">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_Edit.png" />
+      <State Left="0" Top="0" Width="30" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="30" Top="0" Width="30" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="60" Top="0" Width="30" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="90" Top="0" Width="30" Height="26">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="EditFillet">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="photo_5.11.png" />
+      <State Left="234" Top="197" Width="40" Height="24">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="234" Top="197" Width="40" Height="24">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="234" Top="197" Width="40" Height="24">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="234" Top="197" Width="40" Height="24">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="EditNoBorderGray">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="428" Top="1143" Width="25" Height="25">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="428" Top="1143" Width="25" Height="25">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="428" Top="1143" Width="25" Height="25">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="428" Top="1143" Width="25" Height="25">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="EditNoBorderWhite">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_NoBorderTextBox.png" />
+      <State Left="0" Top="0" Width="26" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="clRed" />
+      </State>
+      <State Left="26" Top="0" Width="25" Height="9">
+        <Margins Left="2" Top="2" Right="3" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="26" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="51" Top="0" Width="25" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="EditWithPencil">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_File.png" />
+      <State Left="33" Top="112" Width="148" Height="22">
+        <Margins Right="11" Bottom="17" />
+      </State>
+      <State Left="183" Top="112" Width="148" Height="22">
+        <Margins Right="11" Bottom="17" />
+      </State>
+      <State Left="333" Top="112" Width="148" Height="22">
+        <Margins Right="11" Bottom="17" />
+      </State>
+      <State Left="483" Top="112" Width="148" Height="22">
+        <Margins Right="11" Bottom="17" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="SpinEdit">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_Edit.png" />
+      <State Left="0" Top="0" Width="30" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="30" Top="0" Width="30" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="60" Top="0" Width="30" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="90" Top="0" Width="30" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+    </Part>
+    <Part id="1" Name="UpButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_SpinEditUp.png" />
+      <State Left="0" Top="0" Width="14" Height="12" />
+      <State Left="14" Top="0" Width="14" Height="12" />
+      <State Left="28" Top="0" Width="14" Height="12" />
+      <State Left="42" Top="0" Width="14" Height="12" />
+    </Part>
+    <Part id="2" Name="UpGlyph" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_Edit.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="3" Name="DownButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_SpinEditDown.png" />
+      <State Left="0" Top="0" Width="14" Height="12" />
+      <State Left="14" Top="0" Width="14" Height="12" />
+      <State Left="28" Top="0" Width="14" Height="12" />
+      <State Left="42" Top="0" Width="14" Height="12" />
+    </Part>
+    <Part id="4" Name="DownGlyph" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_Edit.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="NoBorderComboBox">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_NoBorderTextBox.png" />
+      <State Left="0" Top="0" Width="26" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="26" Top="0" Width="25" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="25" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="51" Top="0" Width="25" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="1" Name="Button" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="2" Name="ButtonGlyph" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ComboBoxArrow.png" />
+      <State Left="0" Top="0" Width="9" Height="6" />
+      <State Left="9" Top="0" Width="9" Height="6" />
+      <State Left="18" Top="0" Width="9" Height="6" />
+      <State Left="18" Top="0" Width="9" Height="6" />
+    </Part>
+  </Item>
+  <Item Name="BorderComboBox">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_BorderTextBox.png" />
+      <State Left="0" Top="0" Width="26" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="26" Top="0" Width="25" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="26" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="51" Top="0" Width="25" Height="9">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="1" Name="Button" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="2" Name="ButtonGlyph" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ComboBoxArrow.png" />
+      <State Left="0" Top="0" Width="9" Height="6" />
+      <State Left="9" Top="0" Width="9" Height="6" />
+      <State Left="18" Top="0" Width="9" Height="6" />
+      <State Left="18" Top="0" Width="9" Height="6" />
+    </Part>
+  </Item>
+  <Item Name="ComboBox">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_Edit.png" />
+      <Font Color="0xff222222" />
+      <State Left="0" Top="0" Width="30" Height="26">
+        <Margins Left="4" Top="6" Right="4" Bottom="5" />
+      </State>
+      <State Left="30" Top="0" Width="30" Height="26">
+        <Margins Left="4" Top="6" Right="4" Bottom="5" />
+      </State>
+      <State Left="60" Top="0" Width="30" Height="26">
+        <Margins Left="4" Top="6" Right="4" Bottom="5" />
+      </State>
+      <State Left="90" Top="0" Width="30" Height="26">
+        <Margins Left="4" Top="6" Right="4" Bottom="5" />
+      </State>
+    </Part>
+    <Part id="1" Name="Button" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="2" Name="ButtonGlyph" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ComboBoxArrow.png" />
+      <State Left="0" Top="0" Width="9" Height="6" />
+      <State Left="9" Top="0" Width="9" Height="6" />
+      <State Left="18" Top="0" Width="9" Height="6" />
+      <State Left="18" Top="0" Width="9" Height="6" />
+    </Part>
+  </Item>
+  <Item Name="RightAngleComboBox">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="376" Top="1240" Width="25" Height="25">
+        <Margins Left="6" Top="6" Right="6" Bottom="5" />
+      </State>
+      <State Left="403" Top="1240" Width="25" Height="25">
+        <Margins Left="6" Top="3" Right="7" Bottom="6" />
+      </State>
+      <State Left="430" Top="1240" Width="25" Height="25">
+        <Margins Left="6" Top="5" Right="6" Bottom="5" />
+      </State>
+      <State Left="457" Top="1240" Width="25" Height="25">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      </State>
+    </Part>
+    <Part id="1" Name="Button" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="2" Name="ButtonGlyph" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="253" Top="1250" Width="7" Height="4" />
+      <State Left="278" Top="1250" Width="7" Height="4" />
+      <State Left="303" Top="1250" Width="7" Height="4" />
+      <State Left="328" Top="1250" Width="7" Height="4" />
+    </Part>
+  </Item>
+  <Item Name="Splitter">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="243" Top="885" Width="12" Height="10">
+        <Margins Left="2" />
+      </State>
+      <State Left="256" Top="885" Width="12" Height="10">
+        <Margins Left="2" />
+      </State>
+      <State Left="269" Top="885" Width="12" Height="10">
+        <Margins Left="2" />
+      </State>
+      <State Left="243" Top="885" Width="12" Height="10">
+        <Margins Left="2" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="313" Top="885" Width="12" Height="10">
+        <Margins Right="2" />
+      </State>
+      <State Left="300" Top="885" Width="12" Height="10">
+        <Margins Right="2" />
+      </State>
+      <State Left="287" Top="885" Width="12" Height="10">
+        <Margins Right="2" />
+      </State>
+      <State Left="313" Top="885" Width="12" Height="10">
+        <Margins Right="2" />
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="SplitterGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Control_SplitterGlyph_ToLeft.png" />
+      <State Left="0" Top="0" Width="4" Height="6" />
+      <State Left="0" Top="0" Width="4" Height="6" />
+      <State Left="0" Top="0" Width="4" Height="6" />
+      <State Left="0" Top="0" Width="4" Height="6">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+    <Part id="1" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Control_SplitterGlyph_ToRight.png" />
+      <State Left="0" Top="0" Width="4" Height="6" />
+      <State Left="0" Top="0" Width="4" Height="6" />
+      <State Left="0" Top="0" Width="4" Height="6" />
+      <State Left="0" Top="0" Width="4" Height="6">
+        <Font Color="clGray" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TabControl">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="224" Top="1067" Width="10" Height="10">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="Header" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="131" Top="1067" Width="29" Height="29">
+        <Margins Left="4" Top="4" Right="3" Bottom="12" />
+      </State>
+      <State Left="162" Top="1067" Width="29" Height="29">
+        <Margins Left="4" Top="5" Right="4" Bottom="12" />
+      </State>
+      <State Left="193" Top="1067" Width="29" Height="29">
+        <Margins Left="4" Top="4" Right="4" Bottom="12" />
+      </State>
+      <State Left="131" Top="1067" Width="29" Height="29">
+        <Margins Left="11" Top="11" Right="12" Bottom="12" />
+      </State>
+    </Part>
+    <Part id="2" Name="HeaderBkgnd" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="Panel">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="ProgressBar">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Batch.png" />
+      <State Left="219" Top="189" Width="80" Height="5">
+        <Font Color="0xff4d4d4d" />
+      </State>
+      <State Left="139" Top="189" Width="80" Height="5">
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ProgressBarSplash">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_About.png" />
+      <State Left="969" Top="81" Width="4" Height="4">
+        <Font Color="0xff4d4d4d" />
+      </State>
+      <State Left="969" Top="76" Width="4" Height="4">
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ProgressBarDoc">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <State Left="397" Top="697" Width="50" Height="6" />
+      <State Left="397" Top="685" Width="50" Height="6" />
+    </Part>
+  </Item>
+  <Item Name="ProgressFormBack">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <State Left="397" Top="626" Width="50" Height="50">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="LoopProgressBar">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="219" Top="2154" Width="460" Height="2">
+        <Animation FrameCount="10" FrameDelay="10" Arrange="Vertical" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TrackBar">
+    <Part id="0" Name="Track" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_TrackBar.png" />
+      <Position X="12" Y="3" X2="12" Height="12" />
+      <State Left="8" Top="0" Width="8" Height="5">
+        <Margins Left="2" Top="4" Right="2" />
+        <Spaces Left="12" Right="12" />
+      </State>
+      <State Left="0" Top="0" Width="8" Height="5">
+        <Margins Left="2" Top="4" Right="2" />
+        <Spaces Left="12" Right="12" />
+      </State>
+    </Part>
+    <Part id="1" Name="Pointer" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_TrackBarPointer.png" />
+      <Position X="12" Y="5" X2="12" Width="7" Height="16" />
+      <State Left="1" Top="1" Width="9" Height="10">
+        <Margins Left="8" Top="9" />
+      </State>
+      <State Left="11" Top="1" Width="9" Height="10">
+        <Margins Left="8" Top="9" />
+      </State>
+      <State Left="21" Top="1" Width="9" Height="10">
+        <Margins Left="8" Top="9" />
+      </State>
+      <State Left="1" Top="1" Width="9" Height="10">
+        <Margins Left="8" Top="9" />
+      </State>
+    </Part>
+    <Part id="2" Name="LeftCutButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_TrackBar.png" />
+      <Position Y="13" X2="12" Width="12" Height="14" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="3" Name="RightCutButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_TrackBar.png" />
+      <Position X="12" Y="13" Width="12" Height="14" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="Header">
+    <Part id="0" Name="HeaderBkgnd" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="CommonForm.png" />
+      <State Left="24" Top="167" Width="14" Height="23">
+        <Margins Top="2" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="HeaderSplit" TransparentMode="Alpha">
+      <Graphic Name="CommonForm.png" />
+      <State Left="54" Top="167" Width="2" Height="23" />
+    </Part>
+  </Item>
+  <Item Name="HeaderBottomLine">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\MainLeft_Header.png" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Margins Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ScrollBar">
+    <Part id="0" Name="HorzBar_Left" Visible="False" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="416" Top="1410" Width="2" Height="2" />
+      <State Left="418" Top="1410" Width="2" Height="2" />
+      <State Left="420" Top="1410" Width="2" Height="2" />
+      <State Left="422" Top="1410" Width="2" Height="2" />
+      <State Left="424" Top="1410" Width="2" Height="2" />
+    </Part>
+    <Part id="1" Name="HorzBar_Button" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ScrollbarHorz.png" />
+      <State Left="1" Top="0" Width="24" Height="12">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="1" Top="0" Width="24" Height="12">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="1" Top="0" Width="24" Height="12">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="2" Name="HorzBar_Right" Visible="False" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="521" Top="1445" Width="2" Height="2" />
+      <State Left="523" Top="1445" Width="2" Height="2" />
+      <State Left="525" Top="1445" Width="2" Height="2" />
+      <State Left="527" Top="1445" Width="2" Height="2" />
+    </Part>
+    <Part id="3" Name="HorzBar_Back" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <State Left="455" Top="685" Width="50" Height="6" />
+    </Part>
+    <Part id="4" Name="HorzBar_LeftArrow" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="136" Top="1515" Width="2" Height="2" />
+      <State Left="138" Top="1515" Width="2" Height="2" />
+      <State Left="140" Top="1515" Width="2" Height="2" />
+      <State Left="142" Top="1515" Width="2" Height="2" />
+    </Part>
+    <Part id="5" Name="HorzBar_RightArrow" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="225" Top="1516" Width="2" Height="2" />
+      <State Left="227" Top="1516" Width="2" Height="2" />
+      <State Left="229" Top="1516" Width="2" Height="2" />
+      <State Left="231" Top="1516" Width="2" Height="2" />
+    </Part>
+    <Part id="6" Name="HorzBar_ButtonCenter" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="7" Name="VertBar_Top" Visible="False" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="436" Top="1366" Width="17" Height="17">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="453" Top="1366" Width="17" Height="17">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="470" Top="1366" Width="17" Height="17">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="487" Top="1366" Width="17" Height="17">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="8" Name="VertBar_Button" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ScrollbarVert.png" />
+      <State Left="0" Top="1" Width="12" Height="24">
+        <Margins Left="1" Top="2" Right="1" Bottom="2" />
+      </State>
+      <State Left="0" Top="1" Width="12" Height="24">
+        <Margins Left="1" Top="2" Right="1" Bottom="2" />
+      </State>
+      <State Left="0" Top="1" Width="12" Height="24">
+        <Margins Left="1" Top="2" Right="1" Bottom="2" />
+      </State>
+      <State Left="0" Top="0" Width="1" Height="1">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="9" Name="VertBar_Bottom" Visible="False" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="505" Top="1367" Width="17" Height="17">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="522" Top="1367" Width="17" Height="17">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="539" Top="1367" Width="17" Height="17">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="556" Top="1367" Width="17" Height="17">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="10" Name="VertBar_Back" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <State Left="454" Top="685" Width="50" Height="6">
+        <Margins Left="1" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="11" Name="VertBar_TopArrow" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="138" Top="1406" Width="5" Height="3" />
+      <State Left="143" Top="1406" Width="5" Height="3" />
+      <State Left="148" Top="1406" Width="5" Height="3" />
+      <State Left="153" Top="1406" Width="5" Height="3" />
+    </Part>
+    <Part id="12" Name="VertBar_BottomArrow" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="226" Top="1408" Width="5" Height="3" />
+      <State Left="231" Top="1408" Width="5" Height="3" />
+      <State Left="236" Top="1408" Width="5" Height="3" />
+      <State Left="241" Top="1408" Width="5" Height="3" />
+    </Part>
+    <Part id="13" Name="VertBar_ButtonCenter" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="SkinForm">
+    <Part id="0" Name="Form" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_SkinForm.png" />
+      <Region type="Auto" />
+      <Margins Scale="True" Caption="35" Left="32" Top="32"  Right="32" Bottom="32" />
+      <State Left="0" Top="0" Width="100" Height="100">
+        <Margins Left="32" Top="32" Right="32" Bottom="32" />
+        <DestMargins Scale="True" Left="32" Top="32" Right="32" Bottom="32" />
+      </State>
+      <State Left="0" Top="0" Width="100" Height="100">
+        <Margins Left="32" Top="32" Right="32" Bottom="32" />
+        <DestMargins Scale="True" Left="32" Top="32" Right="32" Bottom="32" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Visible="True" Alignment="Center">
+      <Graphic Name="PE7\Controls_ButtonRecommend.png" />
+      <Position RelPos="Top" Scale="True" X="38" Y="25" X2="38" Height="35" />
+      <Font Size="10.5" Color="0xff222222" />
+      <State Left="51" Top="5" Width="5" Height="3" />
+      <State Left="56" Top="5" Width="5" Height="3" />
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" Scale="True"  X="2" Y="2" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_SkinFormRestoreButton.png" />
+      <Position RelPos="TopRight"  X="38" Y="2" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_SkinFormMinButton.png" />
+      <Position RelPos="TopRight"  X="62" Y="2" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_SkinFormMaxButton.png" />
+      <Position RelPos="TopRight" X="38" Y="2" Width="24" Height="24" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_SkinFormCloseButton.png" />
+      <Position RelPos="TopRight" X="35" Y="35" Width="16" Height="16" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="SkinFormNoTitle">
+    <Part id="0" Name="Form" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_SkinForm.png" />
+      <Region type="Auto" />
+      <Margins Left="32" Top="30" Right="32" Bottom="32" />
+      <State Left="0" Top="0" Width="100" Height="100">
+        <Margins Left="32" Top="32" Right="32" Bottom="32" />
+        <DestMargins Scale="True" Left="32" Top="32" Right="32" Bottom="32" />
+      </State>
+      <State Left="0" Top="0" Width="100" Height="100">
+        <Margins Left="32" Top="32" Right="32" Bottom="32" />
+        <DestMargins Scale="True" Left="32" Top="32" Right="32" Bottom="32" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="SkinFormNoShadow">
+    <Part id="0" Name="Form" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <Region type="Auto" />
+      <Margins Left="1" Top="28" Right="1" Bottom="1" />
+      <State Left="137" Top="69" Width="101" Height="101">
+        <Margins Left="1" Top="28" Right="1" Bottom="1" />
+        <DestMargins Scale="True" Left="1" Top="28" Right="1" Bottom="1" />
+      </State>
+      <State Left="296" Top="69" Width="101" Height="101">
+        <Margins Left="1" Top="28" Right="1" Bottom="1" />
+        <DestMargins Scale="True" Left="1" Top="28" Right="1" Bottom="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Visible="False">
+      <Position RelPos="Top" Scale="False" X="26" Y="3" X2="26" Height="20" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" Scale="False" X="6" Y="6" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="38" Y="2" Width="24" Height="24" />
+      <State Left="249" Top="113" Width="24" Height="24" />
+      <State Left="273" Top="113" Width="24" Height="24" />
+      <State Left="297" Top="113" Width="24" Height="24" />
+      <State Left="321" Top="113" Width="24" Height="24" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="62" Y="2" Width="24" Height="24" />
+      <State Left="150" Top="113" Width="24" Height="24" />
+      <State Left="174" Top="113" Width="24" Height="24" />
+      <State Left="198" Top="113" Width="24" Height="24" />
+      <State Left="222" Top="113" Width="24" Height="24" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="38" Y="2" Width="24" Height="24" />
+      <State Left="348" Top="113" Width="24" Height="24" />
+      <State Left="372" Top="113" Width="24" Height="24" />
+      <State Left="396" Top="113" Width="24" Height="24" />
+      <State Left="420" Top="113" Width="24" Height="24" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="1" Y="2" Width="24" Height="24" />
+      <State Left="447" Top="113" Width="24" Height="24" />
+      <State Left="471" Top="113" Width="24" Height="24" />
+      <State Left="495" Top="113" Width="24" Height="24" />
+      <State Left="519" Top="113" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="MinSkinForm">
+    <Part id="0" Name="Form" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <Region type="Auto" />
+      <Margins Left="12" Top="28" Right="12" Bottom="22" />
+      <State Left="127" Top="456" Width="124" Height="122">
+        <Margins Left="12" Top="28" Right="12" Bottom="22" />
+        <DestMargins Scale="True" Left="12" Top="28" Right="12" Bottom="22" />
+      </State>
+      <State Left="272" Top="456" Width="124" Height="122">
+        <Margins Left="12" Top="28" Right="12" Bottom="22" />
+        <DestMargins Scale="True" Left="12" Top="28" Right="12" Bottom="22" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Visible="False">
+      <Position RelPos="Top" Scale="False" X="26" Y="3" X2="26" Height="20" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" Scale="False" X="2" Y="2" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="38" Y="2" Width="24" Height="24" />
+      <State Left="249" Top="113" Width="24" Height="24" />
+      <State Left="273" Top="113" Width="24" Height="24" />
+      <State Left="297" Top="113" Width="24" Height="24" />
+      <State Left="321" Top="113" Width="24" Height="24" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="38" Width="24" Height="24" />
+      <State Left="150" Top="113" Width="24" Height="24" />
+      <State Left="174" Top="113" Width="24" Height="24" />
+      <State Left="198" Top="113" Width="24" Height="24" />
+      <State Left="222" Top="113" Width="24" Height="24" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="38" Y="2" Width="24" Height="24" />
+      <State Left="348" Top="113" Width="24" Height="24" />
+      <State Left="372" Top="113" Width="24" Height="24" />
+      <State Left="396" Top="113" Width="24" Height="24" />
+      <State Left="420" Top="113" Width="24" Height="24" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" X="14" Y="2" Width="24" Height="24" />
+      <State Left="447" Top="113" Width="24" Height="24" />
+      <State Left="471" Top="113" Width="24" Height="24" />
+      <State Left="495" Top="113" Width="24" Height="24" />
+      <State Left="519" Top="113" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="CustomizeTitleForm">
+    <Part id="0" Name="Form" TransparentMode="Alpha">
+      <Graphic Name="Temp.png" />
+      <Region type="Auto" />
+      <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      <State Left="232" Top="80" Width="20" Height="80">
+        <Margins Left="2" Top="30" Right="2" Bottom="2" />
+        <DestMargins Scale="True" Left="2" Top="30" Right="2" Bottom="2" />
+      </State>
+      <State Left="192" Top="80" Width="20" Height="80">
+        <Margins Left="2" Top="30" Right="2" Bottom="2" />
+        <DestMargins Scale="True" Left="2" Top="30" Right="2" Bottom="2" />
+      </State>
+    </Part>
+    <Part id="1" Name="Caption" Visible="False">
+      <Position RelPos="Top" Scale="False" X="26" Y="3" X2="26" Height="20" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clWhite" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" Scale="False" X="6" Y="6" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="35" Y="5" Width="25" Height="23" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Graphic Name="Temp.png" />
+      <Position RelPos="TopRight" Scale="False" X="30" Y="5" Width="20" Height="20" />
+      <State Left="62" Top="144" Width="20" Height="20" />
+      <State Left="82" Top="144" Width="20" Height="20" />
+      <State Left="102" Top="144" Width="20" Height="20" />
+      <State Left="122" Top="144" Width="20" Height="20" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="35" Y="5" Width="25" Height="23" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Graphic Name="Temp.png" />
+      <Position RelPos="TopRight" Scale="False" X="5" Y="5" Width="20" Height="20" />
+      <State Left="62" Top="167" Width="20" Height="20" />
+      <State Left="82" Top="167" Width="20" Height="20" />
+      <State Left="102" Top="167" Width="20" Height="20" />
+      <State Left="122" Top="167" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="Image">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="SmallProgressBar">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="131" Top="2154" Width="26" Height="26" />
+      <State Left="159" Top="2154" Width="26" Height="26" />
+    </Part>
+  </Item>
+  <Item Name="SplitLine">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="1199" Top="456" Width="16" Height="1" />
+    </Part>
+  </Item>
+  <Item Name="VerticalDummyLine">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="photo_5.11.png" />
+      <State Left="294" Top="34" Width="2" Height="60" />
+    </Part>
+  </Item>
+  <Item Name="UnderlineGlyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="160" Top="640" Width="16" Height="16" />
+      <State Left="160" Top="640" Width="16" Height="16" />
+      <State Left="160" Top="640" Width="16" Height="16" />
+      <State Left="176" Top="640" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="EditNoBorder">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="1134" Top="608" Width="1" Height="1" />
+      <State Left="1152" Top="608" Width="16" Height="22">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="1152" Top="608" Width="16" Height="22">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="1134" Top="608" Width="1" Height="1" />
+    </Part>
+  </Item>
+  <Item Name="NoBorderProgressForm">
+    <Part id="0" Name="Form">
+      <Graphic Name="Controls.png" />
+      <Region type="Auto" />
+      <Margins Scale="False" Left="1" Top="1" Right="1" Bottom="1" />
+      <State Left="35" Top="2" Width="1" Height="1" />
+      <State Left="2" Top="1" Width="1" Height="1" />
+    </Part>
+    <Part id="1" Name="Caption" Visible="False">
+      <Position RelPos="Top" Scale="False" X="26" Y="3" X2="26" Height="20" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="0xff646464" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clBlack" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" Scale="False" X="8" Y="8" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="86" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="52" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" X="18" Y="7" Width="34" Height="18" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="EnableEditPassword">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_EnableEditPassword.png" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+      <State Left="0" Top="0" Width="13" Height="13" />
+      <State Left="13" Top="0" Width="13" Height="13" />
+    </Part>
+  </Item>
+  <Item Name="FormTop">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="CommonForm.png" />
+      <State Left="126" Top="166" Width="3" Height="50">
+        <Margins Left="1" Top="9" Right="1" Bottom="8" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="FormBottom">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="CommonForm.png" />
+      <State Left="131" Top="166" Width="3" Height="38">
+        <Margins Left="1" Top="4" Right="1" Bottom="9" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="GroupBox">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <Font Color="0xff222222" />
+      <State Left="625" Top="758" Width="30" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonRecommend">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonRecommend.png" />
+      <State Left="0" Top="0" Width="40" Height="28">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="40" Top="0" Width="40" Height="28">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="80" Top="0" Width="40" Height="28">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="120" Top="0" Width="40" Height="28">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonSecondary">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonSecondary.png" />
+      <Font Color="0xfffd5b43" />
+      <State Left="0" Top="0" Width="40" Height="28">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+        <Font Color="0xffff694e" />
+      </State>
+      <State Left="40" Top="0" Width="40" Height="28">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+        <Font Color="0xffff694e" />
+      </State>
+      <State Left="80" Top="0" Width="40" Height="28">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+        <Font Color="0xffff694e" />
+      </State>
+      <State Left="120" Top="0" Width="40" Height="28">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="EditLine">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="239" Top="1143" Width="25" Height="25">
+        <Margins Left="17" Bottom="18" />
+      </State>
+      <State Left="266" Top="1143" Width="25" Height="25">
+        <Margins Left="17" Bottom="18" />
+      </State>
+      <State Left="293" Top="1143" Width="25" Height="25">
+        <Margins Left="17" Bottom="18" />
+      </State>
+      <State Left="320" Top="1143" Width="25" Height="25">
+        <Margins Left="17" Bottom="18" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="PanelBlue">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="131" Top="156" Width="10" Height="10" />
+    </Part>
+  </Item>
+  <Item Name="PanelCircleBlue">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="621" Top="1563" Width="32" Height="32">
+        <Margins Left="6" Top="6" Right="6" Bottom="6" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonTransparent">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="860" Top="1563" Width="32" Height="32">
+        <Margins Left="9" Top="7" Right="11" Bottom="8" />
+      </State>
+      <State Left="897" Top="1563" Width="32" Height="32">
+        <Margins Left="9" Top="7" Right="11" Bottom="8" />
+      </State>
+      <State Left="897" Top="1563" Width="32" Height="32">
+        <Margins Left="9" Top="7" Right="11" Bottom="8" />
+      </State>
+      <State Left="689" Top="1563" Width="32" Height="32">
+        <Margins Left="9" Top="7" Right="11" Bottom="8" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonBlue2">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_File.png" />
+      <State Left="25" Top="217" Width="20" Height="20">
+        <Margins Left="4" Top="2" Right="4" Bottom="4" />
+      </State>
+      <State Left="45" Top="217" Width="20" Height="20">
+        <Margins Left="2" Top="1" Right="3" Bottom="2" />
+      </State>
+      <State Left="65" Top="217" Width="20" Height="20">
+        <Margins Left="2" Top="1" Right="2" Bottom="1" />
+      </State>
+      <State Left="85" Top="217" Width="20" Height="20">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonOrange">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonOrange.png" />
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="4" Top="2" Right="4" Bottom="4" />
+      </State>
+      <State Left="95" Top="0" Width="95" Height="30">
+        <Margins Left="4" Top="2" Right="4" Bottom="4" />
+      </State>
+      <State Left="190" Top="0" Width="95" Height="30">
+        <Margins Left="4" Top="2" Right="4" Bottom="4" />
+      </State>
+      <State Left="0" Top="0" Width="95" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="MessageCenterMenuItem">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="565" Top="780" Width="24" Height="8">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="234" Top="791" Width="30" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="264" Top="791" Width="30" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="MessageCenterMenuSplit">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_File.png" />
+      <State Left="22" Top="112" Width="4" Height="22">
+        <Margins Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonBgk">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonBgk.png" />
+      <State Left="0" Top="0" Width="32" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="32" Top="0" Width="32" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="64" Top="0" Width="32" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="96" Top="0" Width="32" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ButtonCanCheckBgk">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonCanCheckBgk.png" />
+      <State Left="0" Top="0" Width="26" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="26" Top="0" Width="26" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="52" Top="0" Width="26" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+      <State Left="78" Top="0" Width="26" Height="26">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="TransparentBKG">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Controls_ButtonCanCheckBgk.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="DefaultDropDownItemBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Control_DefaultDropDownItemBkg.png" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="5" Height="5">
+        <Font Color="clWhite" />
+      </State>
+      <State Left="0" Top="0" Width="5" Height="5" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+  </Item>
+  <Item Name="Header1">
+    <Part id="0" Name="HeaderBkgnd" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\MainLeft_Header.png" />
+      <State Left="0" Top="0" Width="8" Height="3">
+        <Margins Bottom="1" />
+      </State>
+    </Part>
+    <Part id="1" Name="HeaderSplit" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\MainLeft_HeaderVerSplitLine.png" />
+      <State Left="2" Top="0" Width="1" Height="8" />
+    </Part>
+  </Item>
+</Skin>

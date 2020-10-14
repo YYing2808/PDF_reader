@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="FisrtButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="custom.png" />
+      <State Left="33" Top="329" Width="16" Height="16" />
+      <State Left="33" Top="329" Width="16" Height="16" />
+      <State Left="33" Top="329" Width="16" Height="16" />
+      <State Left="49" Top="329" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="PreviousButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_PrevPage.png" />
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="8" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="NextButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Ribbon_NextPage.png" />
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="0" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+      <State Left="8" Top="0" Width="7" Height="8">
+        <Margins Left="1" Right="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="LastButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="custom.png" />
+      <State Left="1" Top="329" Width="16" Height="16" />
+      <State Left="1" Top="329" Width="16" Height="16" />
+      <State Left="1" Top="329" Width="16" Height="16" />
+      <State Left="17" Top="329" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="OCRScanPDF">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="54" Top="732" Width="582" Height="168" />
+    </Part>
+  </Item>
+  <Item Name="OCREditablePDF">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="361" Top="1485" Width="245" Height="152" />
+    </Part>
+  </Item>
+  <Item Name="ScanPDFIcon">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="653" Top="732" Width="36" Height="43" />
+    </Part>
+  </Item>
+  <Item Name="VerticalLine">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="custom.png" />
+      <State Left="2" Top="46" Width="2" Height="13" />
+    </Part>
+  </Item>
+  <Item Name="FloatingMenu">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_File.png" />
+      <State Left="25" Top="180" Width="30" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="FloatingMenuHighlight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="119" Top="605" Width="24" Height="24" />
+      <State Left="119" Top="605" Width="24" Height="24" />
+      <State Left="119" Top="605" Width="24" Height="24" />
+      <State Left="119" Top="605" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FloatingMenuUnderline">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="68" Top="606" Width="24" Height="24" />
+      <State Left="68" Top="606" Width="24" Height="24" />
+      <State Left="68" Top="606" Width="24" Height="24" />
+      <State Left="68" Top="606" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="FloatingMenuStrikethrough">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="RibbonIcon.png" />
+      <State Left="93" Top="606" Width="24" Height="24" />
+      <State Left="93" Top="606" Width="24" Height="24" />
+      <State Left="93" Top="606" Width="24" Height="24" />
+      <State Left="93" Top="606" Width="24" Height="24" />
+    </Part>
+  </Item>
+  <Item Name="LayoutPanel">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Cunston_ninePalace.png" />
+      <State Left="0" Top="0" Width="94" Height="94" />
+    </Part>
+  </Item>
+  <Item Name="LayoutPanelBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Custom_LayoutPanelBtn.png" />
+      <State Left="0" Top="0" Width="30" Height="30" />
+      <State Left="30" Top="0" Width="30" Height="30" />
+      <State Left="60" Top="0" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="LRCBkg">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="131" Top="1615" Width="25" Height="25">
+        <Margins Left="5" Top="5" Right="5" Bottom="5" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="LRCLeftBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="photo_5.11.png" />
+      <State Left="114" Top="481" Width="50" Height="30">
+        <Margins Left="4" Top="1" Bottom="1" />
+        <Font Color="0xffd6a40d" />
+      </State>
+      <State Left="164" Top="481" Width="50" Height="30">
+        <Margins Left="4" Top="1" Bottom="1" />
+        <Font Color="0xffd6a40d" />
+      </State>
+      <State Left="214" Top="481" Width="50" Height="30">
+        <Margins Left="4" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="214" Top="481" Width="50" Height="30">
+        <Margins Left="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="LRCMidBtn">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="photo_5.11.png" />
+      <State Left="272" Top="481" Width="50" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xffd6a40d" />
+      </State>
+      <State Left="322" Top="481" Width="50" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xffd6a40d" />
+      </State>
+      <State Left="372" Top="481" Width="50" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="372" Top="481" Width="50" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="LRCRightBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="photo_5.11.png" />
+      <State Left="430" Top="481" Width="50" Height="30">
+        <Margins Top="1" Right="5" Bottom="1" />
+        <Font Color="0xffd6a40d" />
+      </State>
+      <State Left="480" Top="481" Width="50" Height="30">
+        <Margins Top="1" Right="4" Bottom="1" />
+        <Font Color="0xffd6a40d" />
+      </State>
+      <State Left="530" Top="481" Width="50" Height="30">
+        <Margins Right="5" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="530" Top="481" Width="50" Height="30">
+        <Margins Right="5" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="Rotate0Glyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="235" Top="2414" Width="66" Height="90" />
+    </Part>
+  </Item>
+  <Item Name="Rotate90Glyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="303" Top="2414" Width="66" Height="90" />
+    </Part>
+  </Item>
+  <Item Name="Rotate180Glyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="371" Top="2414" Width="66" Height="90" />
+    </Part>
+  </Item>
+  <Item Name="Rotate270Glyph">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="439" Top="2414" Width="66" Height="90" />
+    </Part>
+  </Item>
+  <Item Name="RotateBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="131" Top="2414" Width="24" Height="24">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="157" Top="2414" Width="24" Height="24">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="183" Top="2414" Width="24" Height="24">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+      <State Left="209" Top="2414" Width="24" Height="24">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="ImageOCRArrow">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="626" Top="1485" Width="57" Height="57" />
+    </Part>
+  </Item>
+  <Item Name="FileUnknowIcon">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <State Left="932" Top="273" Width="24" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="DownButton">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="Main.png" />
+      <State Left="213" Top="1282" Width="13" Height="13" />
+      <State Left="233" Top="1282" Width="13" Height="13" />
+      <State Left="253" Top="1282" Width="13" Height="13" />
+      <State Left="273" Top="1282" Width="13" Height="13" />
+    </Part>
+  </Item>
+  <Item Name="LayoutPanelHot">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE7\Custom_LayoutPanelBtn.png" />
+      <State Left="60" Top="0" Width="30" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="ExitFullScreenBackground">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Window.png" />
+      <State Left="397" Top="626" Width="50" Height="50" />
+    </Part>
+  </Item>
+  <Item Name="AttachItemBKG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="370" Top="922" Width="50" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="370" Top="885" Width="50" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="370" Top="885" Width="50" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="370" Top="922" Width="50" Height="30">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomDottedlineHor">
+    <Part id="0" Name="Frame" FillMode="tile" TransparentMode="Alpha">
+      <Graphic Name="PE7/Custom_dottedlineHor.png" />
+      <State Left="1" Top="1" Width="12" Height="1" />
+    </Part>
+  </Item>
+  <Item Name="CustomDottedlineVertical">
+    <Part id="0" Name="Frame" FillMode="tile" TransparentMode="Alpha">
+      <Graphic Name="PE7/Custom_dottedlineVer.png" />
+      <State Left="1" Top="1" Width="1" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="CustomSawtoothBG">
+    <Part id="0" Name="Frame" FillMode="tile" TransparentMode="Alpha">
+      <Graphic Name="PE7/Custom_sawtooth.png" />
+      <State Left="0" Top="0" Width="15" Height="14" />
+    </Part>
+  </Item>
+  <Item Name="CustomBottomSawtoothBG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Custom_CustomHeaderFootBG.png" />
+      <State Left="0" Top="2" Width="14" Height="10">
+        <Margins Left="2" Right="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomTopSawtoothBG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Custom_CustomHeaderFootBG.png" />
+      <State Left="0" Top="0" Width="14" Height="12">
+        <Margins Left="2" Top="2" Right="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomTileLineSplit">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Cunstom_TileLineSplit.png" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="CustomTilewordSplit">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7/Cunstom_TilewordSplit.png" />
+      <State Left="0" Top="0" Width="15" Height="15" />
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingPriceItem">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_priceItem.png" />
+      <State Left="0" Top="0" Width="30" Height="30">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="30" Top="0" Width="30" Height="30">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+      <State Left="60" Top="0" Width="30" Height="30">
+        <Margins Left="4" Top="4" Right="15" Bottom="15" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingBuyBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_bugBtn.png" />
+      <State Left="0" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="14" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="28" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="42" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingEditionBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_Edition.png" />
+      <State Left="0" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xff666666" />
+      </State>
+      <State Left="40" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xff6074f3" />
+      </State>
+      <State Left="80" Top="0" Width="40" Height="28">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xff6074f3" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingPayGroud">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_paygroud.png" />
+      <State Left="0" Top="0" Width="480" Height="39">
+        <Margins Top="14" Bottom="16" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingQrCoderBG">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_QrCoderBG.png" />
+      <State Left="0" Top="0" Width="20" Height="20">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingBuySuccessful">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_BuySuccessful.png" />
+      <State Left="0" Top="0" Width="50" Height="50" />
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingLoadedMsgFailed">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_loadedFailed.png" />
+      <State Left="0" Top="0" Width="50" Height="50" />
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingReloadBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_reloadBtn.png" />
+      <State Left="0" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="14" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+      <State Left="28" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingbackBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_backBtn.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="48" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingbackBtnBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_backBtnBg.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingLoadingBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_priceItem.png" />
+      <State Left="0" Top="0" Width="30" Height="30">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomShoppingLoadingLineBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\ShoppingCar_loadingBg.png" />
+      <State Left="0" Top="0" Width="20" Height="12">
+        <Margins Left="3" Top="3" Right="3" Bottom="3" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterNormalEdtion">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_normalSmall.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterProEdtion">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_proVipSmall.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterStdEdtion">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_stdVipSmall.png" />
+      <State Left="0" Top="0" Width="20" Height="20" />
+    </Part>
+  </Item>
+  <Item Name="CustomPersonalCenterbtnBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\Welcome_WhiteBkg.png" />
+      <State Left="0" Top="0" Width="16" Height="16" />
+      <State Left="16" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+      <State Left="32" Top="0" Width="16" Height="16" />
+    </Part>
+  </Item>
+  <Item Name="CustomPersonalCenterBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\PersonalCenter_MsgBg.png" />
+      <State Left="0" Top="0" Width="40" Height="40">
+        <Margins Left="4" Top="4" Right="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomPersonalCenterbMsgBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\PersonalCenter_bg.png" />
+      <State Left="0" Top="0" Width="40" Height="40">
+        <Margins Left="4" Top="4" Right="4" Bottom="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterFuncBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_funBg.png" />
+      <State Left="0" Top="0" Width="210" Height="164">
+        <Margins Top="2" Right="12" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterStdBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_stdBg.png" />
+      <State Left="0" Top="0" Width="210" Height="164">
+        <Margins Left="12" Top="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterNormalBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_normalBg.png" />
+      <State Left="0" Top="0" Width="210" Height="164">
+        <Margins Top="2" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterProBg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_ProBg.png" />
+      <State Left="0" Top="0" Width="210" Height="164">
+        <Margins Top="62" Right="56" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterStd">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_stdVip.png" />
+      <State Left="0" Top="0" Width="26" Height="26" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterNormal">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_normal.png" />
+      <State Left="0" Top="0" Width="26" Height="26" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterPro">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_proVip.png" />
+      <State Left="0" Top="0" Width="26" Height="26" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterRight">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_right.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterError">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_error.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterFuncItem">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_FuncItem.png" />
+      <State Left="0" Top="0" Width="209" Height="40" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterProItem">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_ProItem.png" />
+      <State Left="0" Top="0" Width="210" Height="40">
+        <Margins Right="4" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterStdItem">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_StdItem.png" />
+      <State Left="0" Top="0" Width="230" Height="40" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterNormalItem">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_NormalItem.png" />
+      <State Left="0" Top="0" Width="230" Height="40" />
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterStdUpdateBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_stdUpdate.png" />
+      <State Left="0" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="14" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="28" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="42" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="clWhite" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterProUpdateBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_proUpdate.png" />
+      <State Left="0" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xff32caf8" />
+      </State>
+      <State Left="14" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xff32caf8" />
+      </State>
+      <State Left="28" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xff32caf8" />
+      </State>
+      <State Left="42" Top="0" Width="14" Height="10">
+        <Margins Left="2" Top="2" Right="2" Bottom="2" />
+        <Font Color="0xff32caf8" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="CustomVipCenterRefreshBtn">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE7\VipCenter_RefreshBtn.png" />
+      <State Left="0" Top="0" Width="12" Height="12" />
+      <State Left="12" Top="0" Width="12" Height="12" />
+      <State Left="24" Top="0" Width="12" Height="12" />
+    </Part>
+  </Item>
+</Skin>

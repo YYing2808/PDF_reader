@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="RegBackground">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="7" Top="334" Width="25" Height="384">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="RegLogo">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="50" Top="611" Width="194" Height="33" />
+    </Part>
+  </Item>
+  <Item Name="RegLogoPro">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="50" Top="655" Width="226" Height="31" />
+    </Part>
+  </Item>
+  <Item Name="RegLogoBusiness">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="317" Top="655" Width="253" Height="31" />
+    </Part>
+  </Item>
+  <Item Name="RegEmail">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="327" Top="604" Width="38" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="RegCode">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="371" Top="604" Width="38" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="RegEdit">
+    <Part id="0" Name="Frame" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="414" Top="604" Width="40" Height="30" />
+      <State Left="414" Top="604" Width="40" Height="30" />
+      <State Left="414" Top="604" Width="40" Height="30" />
+      <State Left="414" Top="604" Width="40" Height="30" />
+    </Part>
+  </Item>
+  <Item Name="RegLeftImg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="75" Top="360" Width="189" Height="227" />
+    </Part>
+  </Item>
+  <Item Name="RegRightImg">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Custom.png" />
+      <State Left="306" Top="333" Width="302" Height="256" />
+    </Part>
+  </Item>
+  <Item Name="RegButton">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="PE6_Main.png" />
+      <State Left="234" Top="791" Width="30" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="264" Top="791" Width="30" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="294" Top="791" Width="30" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="clWhite" />
+      </State>
+      <State Left="324" Top="791" Width="30" Height="30">
+        <Margins Left="1" Top="1" Right="1" Bottom="1" />
+        <Font Color="0xffdc6555" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

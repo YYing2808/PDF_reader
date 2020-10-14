@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="Register">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="Register.png" />
+      <State Left="0" Top="0" Width="438" Height="106">
+        <Margins Left="426" Top="88" />
+      </State>
+    </Part>
+  </Item>
+  <Item Name="OcrRegister">
+    <Part id="0" Name="Frame" FillMode="stretch" TransparentMode="Alpha">
+      <Graphic Name="OcrRegister.png" />
+      <State Left="0" Top="0" Width="439" Height="107">
+        <Margins Left="426" Top="88" Bottom="1" />
+      </State>
+    </Part>
+  </Item>
+</Skin>

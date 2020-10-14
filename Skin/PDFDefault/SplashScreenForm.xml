@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Skin>
+  <Item Name="SplashScreenForm">
+    <Part id="0" Name="Form">
+      <Graphic Name="SplashScreen.png" />
+      <Region type="Auto" />
+      <State Left="0" Top="0" Width="439" Height="248" />
+      <State Left="0" Top="0" Width="439" Height="248" />
+    </Part>
+    <Part id="1" Name="Caption" Visible="False">
+      <Position RelPos="Top" Scale="False" X="26" Y="3" X2="26" Height="20" />
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="0xff646464" Style="Bold" />
+      </State>
+      <State Left="0" Top="0" Width="0" Height="0">
+        <Font Size="9.75" Color="clBlack" Style="Bold" />
+      </State>
+    </Part>
+    <Part id="2" Name="Icon">
+      <Position RelPos="TopLeft" Scale="False" X="8" Y="8" Width="16" Height="16" />
+    </Part>
+    <Part id="3" Name="RestoreButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="4" Name="MinButton" TransparentMode="Alpha">
+      <Graphic Name="icon.png" />
+      <Position RelPos="TopRight" Scale="False" X="34" Width="34" Height="19" />
+      <State Left="357" Top="1251" Width="29" Height="23" />
+      <State Left="389" Top="1251" Width="29" Height="23" />
+      <State Left="421" Top="1251" Width="29" Height="23" />
+      <State Left="453" Top="1251" Width="29" Height="23" />
+    </Part>
+    <Part id="5" Name="MaxButton" TransparentMode="Alpha">
+      <Position RelPos="TopRight" Scale="False" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+      <State Left="0" Top="0" Width="0" Height="0" />
+    </Part>
+    <Part id="6" Name="CloseButton" TransparentMode="Alpha">
+      <Graphic Name="PE6_Ribbon.png" />
+      <Position RelPos="TopRight" Scale="False" Width="34" Height="19" />
+      <State Left="447" Top="113" Width="24" Height="24" />
+      <State Left="471" Top="113" Width="24" Height="24" />
+      <State Left="495" Top="113" Width="24" Height="24" />
+      <State Left="519" Top="113" Width="24" Height="24" />
+    </Part>
+  </Item>
+</Skin>
